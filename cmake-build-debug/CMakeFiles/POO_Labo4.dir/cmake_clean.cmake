@@ -1,4 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/POO_Labo4.dir/Display/AbstractDisplay.cpp.obj"
+  "CMakeFiles/POO_Labo4.dir/Display/LinuxDisplay.cpp.obj"
+  "CMakeFiles/POO_Labo4.dir/Display/StandardDisplay.cpp.obj"
+  "CMakeFiles/POO_Labo4.dir/Display/WindowsDisplay.cpp.obj"
+  "CMakeFiles/POO_Labo4.dir/Input/Event.cpp.obj"
+  "CMakeFiles/POO_Labo4.dir/Input/KeyListener.cpp.obj"
   "CMakeFiles/POO_Labo4.dir/main.cpp.obj"
   "POO_Labo4.exe"
   "POO_Labo4.exe.manifest"
