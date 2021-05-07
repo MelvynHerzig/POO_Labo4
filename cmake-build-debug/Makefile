@@ -58,19 +58,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "E:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = C:\Users\Dudude\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = "E:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = C:\Users\Dudude\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4"
+CMAKE_SOURCE_DIR = "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = "C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestr
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"E:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	C:\Users\Dudude\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -89,7 +89,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"E:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\Dudude\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\cmake-build-debug\CMakeFiles" "C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug\CMakeFiles" "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -142,6 +142,276 @@ POO_Labo4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/build
 .PHONY : POO_Labo4/fast
 
+Actions/Bite.obj: Actions/Bite.cpp.obj
+
+.PHONY : Actions/Bite.obj
+
+# target to build an object file
+Actions/Bite.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Actions/Bite.cpp.obj
+.PHONY : Actions/Bite.cpp.obj
+
+Actions/Bite.i: Actions/Bite.cpp.i
+
+.PHONY : Actions/Bite.i
+
+# target to preprocess a source file
+Actions/Bite.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Actions/Bite.cpp.i
+.PHONY : Actions/Bite.cpp.i
+
+Actions/Bite.s: Actions/Bite.cpp.s
+
+.PHONY : Actions/Bite.s
+
+# target to generate assembly for a file
+Actions/Bite.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Actions/Bite.cpp.s
+.PHONY : Actions/Bite.cpp.s
+
+Actions/Kill.obj: Actions/Kill.cpp.obj
+
+.PHONY : Actions/Kill.obj
+
+# target to build an object file
+Actions/Kill.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Actions/Kill.cpp.obj
+.PHONY : Actions/Kill.cpp.obj
+
+Actions/Kill.i: Actions/Kill.cpp.i
+
+.PHONY : Actions/Kill.i
+
+# target to preprocess a source file
+Actions/Kill.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Actions/Kill.cpp.i
+.PHONY : Actions/Kill.cpp.i
+
+Actions/Kill.s: Actions/Kill.cpp.s
+
+.PHONY : Actions/Kill.s
+
+# target to generate assembly for a file
+Actions/Kill.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Actions/Kill.cpp.s
+.PHONY : Actions/Kill.cpp.s
+
+Actions/Move.obj: Actions/Move.cpp.obj
+
+.PHONY : Actions/Move.obj
+
+# target to build an object file
+Actions/Move.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Actions/Move.cpp.obj
+.PHONY : Actions/Move.cpp.obj
+
+Actions/Move.i: Actions/Move.cpp.i
+
+.PHONY : Actions/Move.i
+
+# target to preprocess a source file
+Actions/Move.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Actions/Move.cpp.i
+.PHONY : Actions/Move.cpp.i
+
+Actions/Move.s: Actions/Move.cpp.s
+
+.PHONY : Actions/Move.s
+
+# target to generate assembly for a file
+Actions/Move.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Actions/Move.cpp.s
+.PHONY : Actions/Move.cpp.s
+
+Actions/Stay.obj: Actions/Stay.cpp.obj
+
+.PHONY : Actions/Stay.obj
+
+# target to build an object file
+Actions/Stay.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Actions/Stay.cpp.obj
+.PHONY : Actions/Stay.cpp.obj
+
+Actions/Stay.i: Actions/Stay.cpp.i
+
+.PHONY : Actions/Stay.i
+
+# target to preprocess a source file
+Actions/Stay.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Actions/Stay.cpp.i
+.PHONY : Actions/Stay.cpp.i
+
+Actions/Stay.s: Actions/Stay.cpp.s
+
+.PHONY : Actions/Stay.s
+
+# target to generate assembly for a file
+Actions/Stay.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Actions/Stay.cpp.s
+.PHONY : Actions/Stay.cpp.s
+
+Entities/Buffy.obj: Entities/Buffy.cpp.obj
+
+.PHONY : Entities/Buffy.obj
+
+# target to build an object file
+Entities/Buffy.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Entities/Buffy.cpp.obj
+.PHONY : Entities/Buffy.cpp.obj
+
+Entities/Buffy.i: Entities/Buffy.cpp.i
+
+.PHONY : Entities/Buffy.i
+
+# target to preprocess a source file
+Entities/Buffy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Entities/Buffy.cpp.i
+.PHONY : Entities/Buffy.cpp.i
+
+Entities/Buffy.s: Entities/Buffy.cpp.s
+
+.PHONY : Entities/Buffy.s
+
+# target to generate assembly for a file
+Entities/Buffy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Entities/Buffy.cpp.s
+.PHONY : Entities/Buffy.cpp.s
+
+Entities/Human.obj: Entities/Human.cpp.obj
+
+.PHONY : Entities/Human.obj
+
+# target to build an object file
+Entities/Human.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Entities/Human.cpp.obj
+.PHONY : Entities/Human.cpp.obj
+
+Entities/Human.i: Entities/Human.cpp.i
+
+.PHONY : Entities/Human.i
+
+# target to preprocess a source file
+Entities/Human.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Entities/Human.cpp.i
+.PHONY : Entities/Human.cpp.i
+
+Entities/Human.s: Entities/Human.cpp.s
+
+.PHONY : Entities/Human.s
+
+# target to generate assembly for a file
+Entities/Human.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Entities/Human.cpp.s
+.PHONY : Entities/Human.cpp.s
+
+Entities/Humanoid.obj: Entities/Humanoid.cpp.obj
+
+.PHONY : Entities/Humanoid.obj
+
+# target to build an object file
+Entities/Humanoid.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Entities/Humanoid.cpp.obj
+.PHONY : Entities/Humanoid.cpp.obj
+
+Entities/Humanoid.i: Entities/Humanoid.cpp.i
+
+.PHONY : Entities/Humanoid.i
+
+# target to preprocess a source file
+Entities/Humanoid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Entities/Humanoid.cpp.i
+.PHONY : Entities/Humanoid.cpp.i
+
+Entities/Humanoid.s: Entities/Humanoid.cpp.s
+
+.PHONY : Entities/Humanoid.s
+
+# target to generate assembly for a file
+Entities/Humanoid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Entities/Humanoid.cpp.s
+.PHONY : Entities/Humanoid.cpp.s
+
+Entities/Position.obj: Entities/Position.cpp.obj
+
+.PHONY : Entities/Position.obj
+
+# target to build an object file
+Entities/Position.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Entities/Position.cpp.obj
+.PHONY : Entities/Position.cpp.obj
+
+Entities/Position.i: Entities/Position.cpp.i
+
+.PHONY : Entities/Position.i
+
+# target to preprocess a source file
+Entities/Position.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Entities/Position.cpp.i
+.PHONY : Entities/Position.cpp.i
+
+Entities/Position.s: Entities/Position.cpp.s
+
+.PHONY : Entities/Position.s
+
+# target to generate assembly for a file
+Entities/Position.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Entities/Position.cpp.s
+.PHONY : Entities/Position.cpp.s
+
+Entities/Vampire.obj: Entities/Vampire.cpp.obj
+
+.PHONY : Entities/Vampire.obj
+
+# target to build an object file
+Entities/Vampire.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Entities/Vampire.cpp.obj
+.PHONY : Entities/Vampire.cpp.obj
+
+Entities/Vampire.i: Entities/Vampire.cpp.i
+
+.PHONY : Entities/Vampire.i
+
+# target to preprocess a source file
+Entities/Vampire.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Entities/Vampire.cpp.i
+.PHONY : Entities/Vampire.cpp.i
+
+Entities/Vampire.s: Entities/Vampire.cpp.s
+
+.PHONY : Entities/Vampire.s
+
+# target to generate assembly for a file
+Entities/Vampire.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Entities/Vampire.cpp.s
+.PHONY : Entities/Vampire.cpp.s
+
+Field.obj: Field.cpp.obj
+
+.PHONY : Field.obj
+
+# target to build an object file
+Field.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Field.cpp.obj
+.PHONY : Field.cpp.obj
+
+Field.i: Field.cpp.i
+
+.PHONY : Field.i
+
+# target to preprocess a source file
+Field.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Field.cpp.i
+.PHONY : Field.cpp.i
+
+Field.s: Field.cpp.s
+
+.PHONY : Field.s
+
+# target to generate assembly for a file
+Field.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Field.cpp.s
+.PHONY : Field.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +448,36 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... POO_Labo4
+	@echo ... Actions/Bite.obj
+	@echo ... Actions/Bite.i
+	@echo ... Actions/Bite.s
+	@echo ... Actions/Kill.obj
+	@echo ... Actions/Kill.i
+	@echo ... Actions/Kill.s
+	@echo ... Actions/Move.obj
+	@echo ... Actions/Move.i
+	@echo ... Actions/Move.s
+	@echo ... Actions/Stay.obj
+	@echo ... Actions/Stay.i
+	@echo ... Actions/Stay.s
+	@echo ... Entities/Buffy.obj
+	@echo ... Entities/Buffy.i
+	@echo ... Entities/Buffy.s
+	@echo ... Entities/Human.obj
+	@echo ... Entities/Human.i
+	@echo ... Entities/Human.s
+	@echo ... Entities/Humanoid.obj
+	@echo ... Entities/Humanoid.i
+	@echo ... Entities/Humanoid.s
+	@echo ... Entities/Position.obj
+	@echo ... Entities/Position.i
+	@echo ... Entities/Position.s
+	@echo ... Entities/Vampire.obj
+	@echo ... Entities/Vampire.i
+	@echo ... Entities/Vampire.s
+	@echo ... Field.obj
+	@echo ... Field.i
+	@echo ... Field.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
