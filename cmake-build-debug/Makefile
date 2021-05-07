@@ -142,6 +142,7 @@ POO_Labo4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/build
 .PHONY : POO_Labo4/fast
 
+<<<<<<< HEAD
 Actions/Bite.obj: Actions/Bite.cpp.obj
 
 .PHONY : Actions/Bite.obj
@@ -411,6 +412,169 @@ Field.s: Field.cpp.s
 Field.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Field.cpp.s
 .PHONY : Field.cpp.s
+=======
+Display/AbstractDisplay.obj: Display/AbstractDisplay.cpp.obj
+
+.PHONY : Display/AbstractDisplay.obj
+
+# target to build an object file
+Display/AbstractDisplay.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Display/AbstractDisplay.cpp.obj
+.PHONY : Display/AbstractDisplay.cpp.obj
+
+Display/AbstractDisplay.i: Display/AbstractDisplay.cpp.i
+
+.PHONY : Display/AbstractDisplay.i
+
+# target to preprocess a source file
+Display/AbstractDisplay.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Display/AbstractDisplay.cpp.i
+.PHONY : Display/AbstractDisplay.cpp.i
+
+Display/AbstractDisplay.s: Display/AbstractDisplay.cpp.s
+
+.PHONY : Display/AbstractDisplay.s
+
+# target to generate assembly for a file
+Display/AbstractDisplay.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Display/AbstractDisplay.cpp.s
+.PHONY : Display/AbstractDisplay.cpp.s
+
+Display/LinuxDisplay.obj: Display/LinuxDisplay.cpp.obj
+
+.PHONY : Display/LinuxDisplay.obj
+
+# target to build an object file
+Display/LinuxDisplay.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Display/LinuxDisplay.cpp.obj
+.PHONY : Display/LinuxDisplay.cpp.obj
+
+Display/LinuxDisplay.i: Display/LinuxDisplay.cpp.i
+
+.PHONY : Display/LinuxDisplay.i
+
+# target to preprocess a source file
+Display/LinuxDisplay.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Display/LinuxDisplay.cpp.i
+.PHONY : Display/LinuxDisplay.cpp.i
+
+Display/LinuxDisplay.s: Display/LinuxDisplay.cpp.s
+
+.PHONY : Display/LinuxDisplay.s
+
+# target to generate assembly for a file
+Display/LinuxDisplay.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Display/LinuxDisplay.cpp.s
+.PHONY : Display/LinuxDisplay.cpp.s
+
+Display/StandardDisplay.obj: Display/StandardDisplay.cpp.obj
+
+.PHONY : Display/StandardDisplay.obj
+
+# target to build an object file
+Display/StandardDisplay.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Display/StandardDisplay.cpp.obj
+.PHONY : Display/StandardDisplay.cpp.obj
+
+Display/StandardDisplay.i: Display/StandardDisplay.cpp.i
+
+.PHONY : Display/StandardDisplay.i
+
+# target to preprocess a source file
+Display/StandardDisplay.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Display/StandardDisplay.cpp.i
+.PHONY : Display/StandardDisplay.cpp.i
+
+Display/StandardDisplay.s: Display/StandardDisplay.cpp.s
+
+.PHONY : Display/StandardDisplay.s
+
+# target to generate assembly for a file
+Display/StandardDisplay.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Display/StandardDisplay.cpp.s
+.PHONY : Display/StandardDisplay.cpp.s
+
+Display/WindowsDisplay.obj: Display/WindowsDisplay.cpp.obj
+
+.PHONY : Display/WindowsDisplay.obj
+
+# target to build an object file
+Display/WindowsDisplay.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Display/WindowsDisplay.cpp.obj
+.PHONY : Display/WindowsDisplay.cpp.obj
+
+Display/WindowsDisplay.i: Display/WindowsDisplay.cpp.i
+
+.PHONY : Display/WindowsDisplay.i
+
+# target to preprocess a source file
+Display/WindowsDisplay.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Display/WindowsDisplay.cpp.i
+.PHONY : Display/WindowsDisplay.cpp.i
+
+Display/WindowsDisplay.s: Display/WindowsDisplay.cpp.s
+
+.PHONY : Display/WindowsDisplay.s
+
+# target to generate assembly for a file
+Display/WindowsDisplay.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Display/WindowsDisplay.cpp.s
+.PHONY : Display/WindowsDisplay.cpp.s
+
+Input/Event.obj: Input/Event.cpp.obj
+
+.PHONY : Input/Event.obj
+
+# target to build an object file
+Input/Event.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Input/Event.cpp.obj
+.PHONY : Input/Event.cpp.obj
+
+Input/Event.i: Input/Event.cpp.i
+
+.PHONY : Input/Event.i
+
+# target to preprocess a source file
+Input/Event.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Input/Event.cpp.i
+.PHONY : Input/Event.cpp.i
+
+Input/Event.s: Input/Event.cpp.s
+
+.PHONY : Input/Event.s
+
+# target to generate assembly for a file
+Input/Event.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Input/Event.cpp.s
+.PHONY : Input/Event.cpp.s
+
+Input/KeyListener.obj: Input/KeyListener.cpp.obj
+
+.PHONY : Input/KeyListener.obj
+
+# target to build an object file
+Input/KeyListener.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Input/KeyListener.cpp.obj
+.PHONY : Input/KeyListener.cpp.obj
+
+Input/KeyListener.i: Input/KeyListener.cpp.i
+
+.PHONY : Input/KeyListener.i
+
+# target to preprocess a source file
+Input/KeyListener.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Input/KeyListener.cpp.i
+.PHONY : Input/KeyListener.cpp.i
+
+Input/KeyListener.s: Input/KeyListener.cpp.s
+
+.PHONY : Input/KeyListener.s
+
+# target to generate assembly for a file
+Input/KeyListener.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Input/KeyListener.cpp.s
+.PHONY : Input/KeyListener.cpp.s
+>>>>>>> ab03608300b2773967c1ecf7ab03247a27e13bad
 
 main.obj: main.cpp.obj
 
@@ -448,6 +612,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... POO_Labo4
+<<<<<<< HEAD
 	@echo ... Actions/Bite.obj
 	@echo ... Actions/Bite.i
 	@echo ... Actions/Bite.s
@@ -478,6 +643,26 @@ help:
 	@echo ... Field.obj
 	@echo ... Field.i
 	@echo ... Field.s
+=======
+	@echo ... Display/AbstractDisplay.obj
+	@echo ... Display/AbstractDisplay.i
+	@echo ... Display/AbstractDisplay.s
+	@echo ... Display/LinuxDisplay.obj
+	@echo ... Display/LinuxDisplay.i
+	@echo ... Display/LinuxDisplay.s
+	@echo ... Display/StandardDisplay.obj
+	@echo ... Display/StandardDisplay.i
+	@echo ... Display/StandardDisplay.s
+	@echo ... Display/WindowsDisplay.obj
+	@echo ... Display/WindowsDisplay.i
+	@echo ... Display/WindowsDisplay.s
+	@echo ... Input/Event.obj
+	@echo ... Input/Event.i
+	@echo ... Input/Event.s
+	@echo ... Input/KeyListener.obj
+	@echo ... Input/KeyListener.i
+	@echo ... Input/KeyListener.s
+>>>>>>> ab03608300b2773967c1ecf7ab03247a27e13bad
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

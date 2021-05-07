@@ -93,12 +93,20 @@ clean: CMakeFiles/POO_Labo4.dir/clean
 CMakeFiles/POO_Labo4.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target POO_Labo4"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8 "Built target POO_Labo4"
+>>>>>>> ab03608300b2773967c1ecf7ab03247a27e13bad
 .PHONY : CMakeFiles/POO_Labo4.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/POO_Labo4.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug\CMakeFiles" 12
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\cmake-build-debug\CMakeFiles" 8
+>>>>>>> ab03608300b2773967c1ecf7ab03247a27e13bad
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/POO_Labo4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/POO_Labo4.dir/rule

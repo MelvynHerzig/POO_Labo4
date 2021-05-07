@@ -82,7 +82,47 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+<<<<<<< HEAD
 		<Unit filename="D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Action.h">
+=======
+		<Unit filename="C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/AbstractDisplay.cpp">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/AbstractDisplay.h">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/LinuxDisplay.cpp">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/LinuxDisplay.h">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/StandardDisplay.cpp">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/StandardDisplay.h">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/WindowsDisplay.cpp">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/WindowsDisplay.h">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Input/Event.cpp">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Input/Event.h">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Input/KeyListener.cpp">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Input/KeyListener.h">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/main.cpp">
+>>>>>>> ab03608300b2773967c1ecf7ab03247a27e13bad
 			<Option target="POO_Labo4"/>
 		</Unit>
 		<Unit filename="D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Bite.cpp">
