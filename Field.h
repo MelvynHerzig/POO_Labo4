@@ -4,6 +4,8 @@
 #include <list>
 #include "Entities/Humanoid.h"
 
+class Humanoid;
+
 /**
  * @brief Classe qui représente l'environnement
  * @date 05/05/2021

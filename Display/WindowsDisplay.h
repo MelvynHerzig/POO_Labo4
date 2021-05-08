@@ -20,7 +20,7 @@ private:
    static const WORD BUFFY_COLOR = 0x0E;
 
    /**
-    * @brief Couleur des humain.
+    * @brief Couleur des humains.
     */
    static const WORD HUMAN_COLOR = 0x0D;
 

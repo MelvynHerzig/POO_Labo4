@@ -3,6 +3,8 @@
 
 #include "../Field.h"
 
+class Field;
+
 /**
  * @brief Classe abstraite Action. Parente de Move, Kill, Bite, Stay. Permet l'exécution d'une action
  * @date 05/05/2021

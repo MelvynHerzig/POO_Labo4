@@ -7,6 +7,9 @@
 #include "HumanoidType.h"
 #include "Position.h"
 
+class Action;
+class Field;
+
 /**
  * @brief Classe abstraite Humanoid. Parente de Buffy, Vampire, Human. Défini leurs méthodes communes.
  * @date 05/05/2021
