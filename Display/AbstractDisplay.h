@@ -3,6 +3,8 @@
 
 #include <string> // string
 
+#include "../Field.h"
+
 // Pré-déclaration.
 class Field;
 class Human;
@@ -42,7 +44,7 @@ public:
    * @brief Affiche un message
    * @param message Message à afficher
    */
-   virtual void display(const std::string& message);
+   virtual void display(const std::string& message) const;
 
    /**
     * @brief Affiche la carte.
@@ -79,7 +81,7 @@ private:
     * @brief Affiche les bord supérieurs et inférieurs d'une carte.
     * @param field Carte à afficher.
     */
-   static void displayTopBotBorder(const Field& field) ;
+   static void displayTopBotBorder(const Field& field);
 };
 
 #endif //POO_LABO4_ABSTRACTDISPLAY_H

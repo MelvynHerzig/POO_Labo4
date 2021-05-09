@@ -19,7 +19,7 @@ public:
     /**
      * @brief Destructeur de la classe
      */
-    virtual ~IKillable();
+    virtual ~IKillable() = default;
 };
 
 

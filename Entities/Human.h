@@ -9,16 +9,36 @@
 class Human : public Humanoid, public IKillable
 {
 public:
-    HumanoidType getType() const override;
 
-    void setAction(const Field& f);
+   /**
+   * @brief Constructeur, définit la position de l'humain
+   * @param position Position à assigner.
+   */
+   explicit Human (const Position &position);
 
-    /**
-     * @brief Transforme l'humain en vampire
-     *        Concrètement, tue l'humain et ajoute un nouveau vampire dans Field
-     * @param f Environnement dans lequel ajouter le vampire
-     */
-    void transformToVampire(Field& f);
+   /**
+    * @brief L'humain' s'affiche dans l'afficheur.
+    * @param displayer Afficheur responsable d'afficher l'humain.
+    */
+   void display(const AbstractDisplay &displayer) const override;
+
+   /**
+    * @brief Accède au type de la classe.
+    * @return Retourne HumanoidType::HUMAN
+    */
+   HumanoidType getType () const override;
+
+   /**
+    * @brief Transforme l'humain en vampire
+    *        Concrètement, tue l'humain et ajoute un nouveau vampire dans Field
+    * @param f Environnement dans lequel ajouter le vampire
+    */
+   void transformToVampire (Field &f);
+
+   // TODO
+   //void setAction(const Field& f);
+
+   void kill() override;
 };
 
 

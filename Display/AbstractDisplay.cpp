@@ -4,30 +4,29 @@
 
 using namespace std;
 
-
 void AbstractDisplay::display (const Field &field) const
 {
    // Dessus
    displayTopBotBorder(field);
 
    // Bords gauche/droite et intérieur
-   for (size_t row = 0; row < 10/* TODO field.getSize()*/; ++row)
+   for (size_t row = 0; row < field.getSize(); ++row)
    {
       // Bord gauche
       cout << LFT_RGT_BORDER;
 
       // Contenu
-      /*TODO for (size_t col = 0; col < field.getWidth(); ++col)
+      for (size_t col = 0; col < field.getSize(); ++col)
       {
-         if (field.hasHumanoidAt(// Passer une coordonnée))
+         if (field.hasHumanoidAt(row, col))
          {
-            display(field.getHumanoidAt(// Passer une coordonnée))
+            field.getHumanoidAt(row, col).display(*this);
          }
          else
          {
             cout << EMPTY;
          }
-      }*/
+      }
 
       // Bord droite
       cout << LFT_RGT_BORDER << endl;
@@ -37,7 +36,7 @@ void AbstractDisplay::display (const Field &field) const
    displayTopBotBorder(field);
 }
 
-void AbstractDisplay::display(const std::string &message)
+void AbstractDisplay::display(const std::string &message) const
 {
    cout << message;
 }
@@ -49,7 +48,7 @@ void AbstractDisplay::displayTopBotBorder (const Field& field)
    cout << CORNER;
 
    // Remplissage entre les coins.
-   for (size_t i = 0; i < 10/* TODO field.getSize()*/; ++i)
+   for (size_t i = 0; i < field.getSize(); ++i)
    {
       cout << TOP_BOT_BORDER;
    }

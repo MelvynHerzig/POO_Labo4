@@ -20,11 +20,6 @@ private:
    static const int NB_SIMULATIONS = 10000;
 
    /**
-    * @brief Terrain de la simulation en cour.
-    */
-   Field field;
-
-   /**
     * @brief Afficheur.
     */
    const AbstractDisplay& display;
@@ -44,7 +39,10 @@ private:
     */
    const size_t VAMPIRES_TO_CREATE;
 
-
+   /**
+    * @brief Terrain de la simulation en cour.
+    */
+   Field field;
 
 public:
 
@@ -71,6 +69,9 @@ public:
     * @brief Termine l'application
     */
    void quit();
+
+   // TODO replacer au bon endroit fonction de test.
+   void printState();
 };
 
 

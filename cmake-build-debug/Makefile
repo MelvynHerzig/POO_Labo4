@@ -466,33 +466,6 @@ Entities/Humanoid.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Entities/Humanoid.cpp.s
 .PHONY : Entities/Humanoid.cpp.s
 
-Entities/Position.obj: Entities/Position.cpp.obj
-
-.PHONY : Entities/Position.obj
-
-# target to build an object file
-Entities/Position.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Entities/Position.cpp.obj
-.PHONY : Entities/Position.cpp.obj
-
-Entities/Position.i: Entities/Position.cpp.i
-
-.PHONY : Entities/Position.i
-
-# target to preprocess a source file
-Entities/Position.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Entities/Position.cpp.i
-.PHONY : Entities/Position.cpp.i
-
-Entities/Position.s: Entities/Position.cpp.s
-
-.PHONY : Entities/Position.s
-
-# target to generate assembly for a file
-Entities/Position.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Entities/Position.cpp.s
-.PHONY : Entities/Position.cpp.s
-
 Entities/Vampire.obj: Entities/Vampire.cpp.obj
 
 .PHONY : Entities/Vampire.obj
@@ -519,6 +492,33 @@ Entities/Vampire.s: Entities/Vampire.cpp.s
 Entities/Vampire.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Entities/Vampire.cpp.s
 .PHONY : Entities/Vampire.cpp.s
+
+Entities/position/Position.obj: Entities/position/Position.cpp.obj
+
+.PHONY : Entities/position/Position.obj
+
+# target to build an object file
+Entities/position/Position.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Entities/position/Position.cpp.obj
+.PHONY : Entities/position/Position.cpp.obj
+
+Entities/position/Position.i: Entities/position/Position.cpp.i
+
+.PHONY : Entities/position/Position.i
+
+# target to preprocess a source file
+Entities/position/Position.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Entities/position/Position.cpp.i
+.PHONY : Entities/position/Position.cpp.i
+
+Entities/position/Position.s: Entities/position/Position.cpp.s
+
+.PHONY : Entities/position/Position.s
+
+# target to generate assembly for a file
+Entities/position/Position.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Entities/position/Position.cpp.s
+.PHONY : Entities/position/Position.cpp.s
 
 Field.obj: Field.cpp.obj
 
@@ -601,6 +601,33 @@ Input/KeyListener.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Input/KeyListener.cpp.s
 .PHONY : Input/KeyListener.cpp.s
 
+Utils/Utils.obj: Utils/Utils.cpp.obj
+
+.PHONY : Utils/Utils.obj
+
+# target to build an object file
+Utils/Utils.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Utils/Utils.cpp.obj
+.PHONY : Utils/Utils.cpp.obj
+
+Utils/Utils.i: Utils/Utils.cpp.i
+
+.PHONY : Utils/Utils.i
+
+# target to preprocess a source file
+Utils/Utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Utils/Utils.cpp.i
+.PHONY : Utils/Utils.cpp.i
+
+Utils/Utils.s: Utils/Utils.cpp.s
+
+.PHONY : Utils/Utils.s
+
+# target to generate assembly for a file
+Utils/Utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Utils/Utils.cpp.s
+.PHONY : Utils/Utils.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -673,12 +700,12 @@ help:
 	@echo ... Entities/Humanoid.obj
 	@echo ... Entities/Humanoid.i
 	@echo ... Entities/Humanoid.s
-	@echo ... Entities/Position.obj
-	@echo ... Entities/Position.i
-	@echo ... Entities/Position.s
 	@echo ... Entities/Vampire.obj
 	@echo ... Entities/Vampire.i
 	@echo ... Entities/Vampire.s
+	@echo ... Entities/position/Position.obj
+	@echo ... Entities/position/Position.i
+	@echo ... Entities/position/Position.s
 	@echo ... Field.obj
 	@echo ... Field.i
 	@echo ... Field.s
@@ -688,6 +715,9 @@ help:
 	@echo ... Input/KeyListener.obj
 	@echo ... Input/KeyListener.i
 	@echo ... Input/KeyListener.s
+	@echo ... Utils/Utils.obj
+	@echo ... Utils/Utils.i
+	@echo ... Utils/Utils.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

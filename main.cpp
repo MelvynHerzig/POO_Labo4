@@ -89,6 +89,7 @@ int main (int argc, char* argv[])
 
    // Création du contrôleur
    BuffyAndVampires buffyAndVampires{display, size, nbHumans, nbVampires};
+   buffyAndVampires.printState();
 
    return EXIT_SUCCESS;
 }

@@ -11,8 +11,11 @@ BuffyAndVampires::BuffyAndVampires (const AbstractDisplay &display,
         display(display),
         SIZE(size),
         HUMANS_TO_CREATE(humansToCreate),
-        VAMPIRES_TO_CREATE(vampiresToCreate)
-{}
+        VAMPIRES_TO_CREATE(vampiresToCreate),
+        field(size, humansToCreate, vampiresToCreate)
+{
+
+}
 
 void BuffyAndVampires::nextTurn ()
 {
@@ -27,5 +30,10 @@ void BuffyAndVampires::statistics ()
 void BuffyAndVampires::quit ()
 {
    cout << "quit" << endl;
+}
+
+void BuffyAndVampires::printState ()
+{
+   display.display(field);
 }
 
