@@ -16,9 +16,9 @@ class Utils
 private:
 
    /**
-    * @brief Générateur d'une suite de nombres aléatoires non déterminés.
+    * @brief Permet d'initialiser le seeding une fois.
     */
-   static std::random_device generator;
+   static bool init;
 
 public:
 
@@ -28,12 +28,12 @@ public:
    Utils() = delete;
 
    /**
-   * @brief Calcul une entier aléatoire entre [min, max[
+   * @brief Calcule une entier aléatoire entre [min, max[
    * @param min Borne inférieure
    * @param max Borne supérieure
    * @return int Retourne l'entier aléatoire.
    */
-   static unsigned randint(unsigned min, unsigned max);
+   static int randomInteger(int min, int max);
 };
 
 #endif //POO_LABO4_UTILS_H

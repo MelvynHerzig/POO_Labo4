@@ -9,8 +9,8 @@ void Field::createHumanoid (std::size_t amout)
 {
    for(std::size_t i = 0; i < amout; ++i)
    {
-      humanoids.emplace_back(new humaoidClass(Position{Utils::randint(0, SIZE),
-                                                       Utils::randint(0, SIZE)}));
+      humanoids.emplace_back(new humaoidClass(Position{(unsigned) Utils::randomInteger(0, (int) SIZE),
+                                                       (unsigned) Utils::randomInteger(0, (int) SIZE)}));
    }
 }
 

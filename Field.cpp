@@ -10,7 +10,7 @@
 
 using namespace std;
 
-Field::Field (size_t size, size_t humansToCreate, size_t vampiresToCreate) : SIZE(size)
+Field::Field (size_t size, size_t humansToCreate, size_t vampiresToCreate) : turn(0), SIZE(size)
 {
 
    // Création des humanoïdes.
@@ -67,7 +67,7 @@ bool Field::hasHumanoidAt (unsigned int x, unsigned int y) const
    return false;
 }
 
-const Humanoid &Field::getHumanoidAt (unsigned int x, unsigned int y) const
+const Humanoid& Field::getHumanoidAt (unsigned int x, unsigned int y) const
 {
    auto it = find_if(humanoids.begin(), humanoids.end(), [x,y](const Humanoid* humanoid)
    {

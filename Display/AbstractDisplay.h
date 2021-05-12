@@ -75,6 +75,12 @@ public:
     */
    virtual void clear() const = 0;
 
+   /**
+    * @brief Affiche une statistique.
+    * @param stats Statistique à afficher.
+    */
+   virtual void displayStatistics(double stats) const = 0;
+
 private:
 
    /**

@@ -35,6 +35,12 @@ public:
     *        (Dans un affichage classique, sans effet).
     */
    void clear() const override;
+
+   /**
+    * @brief Affiche une statistique.
+    * @param stats Statistique à afficher.
+    */
+   void displayStatistics(double stats) const override;
 };
 
 #endif //POO_LABO4_STANDARDDISPLAY_H

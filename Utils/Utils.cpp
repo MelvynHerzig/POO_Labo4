@@ -1,10 +1,17 @@
 #include "Utils.h"
 
+#include <ctime> // time
+
 using namespace std;
 
-random_device Utils::generator;
+bool Utils::init = true;
 
-unsigned Utils::randint (unsigned min, unsigned max)
+int Utils::randomInteger (int min, int max)
 {
-   return generator() % (max - min) + min;
+   if(init)
+   {
+      srand((unsigned)time(NULL));
+      init = !init;
+   }
+   return ( rand() % (max-min+1) ) + min;
 }

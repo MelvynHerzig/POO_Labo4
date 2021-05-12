@@ -9,21 +9,17 @@ using namespace std;
 
 Event KeyListener::getNextInput (size_t currentTurn)
 {
-   bool isInputUnknown;
-
    // Lit une entrée de l'utilisateur.
    do
    {
       // Affichage des instructions possibles
-      cout << "q)uit s>tatistics n>ext: ";
+      cout << '[' << currentTurn << ']' << "q)uit s)tatistics n)ext: ";
 
-      // Récupération de l'entrée.
-      char input;
-      cin >> input;
+      // Avec cette méthode on peut considérer un return comme une entrée.
+      string line;
+      getline( cin, line );
 
-      // Vide le buffer d'entrée pour éviter les traitements en chaîne.
-      cin.ignore(numeric_limits<streamsize>::max(), '\n');
-
+      char input = (line.empty() ? NEXT : line[0] );
 
       //Traitement de 'entrée
       switch ((char) tolower(input))
