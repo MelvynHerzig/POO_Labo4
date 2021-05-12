@@ -82,6 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+<<<<<<< Updated upstream
 		<Unit filename="C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Action.h">
 			<Option target="POO_Labo4"/>
 		</Unit>
@@ -155,6 +156,57 @@
 			<Option target="POO_Labo4"/>
 		</Unit>
 		<Unit filename="C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Humanoid.h">
+=======
+		<Unit filename="D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Action.h">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Bite.cpp">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Bite.h">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Kill.cpp">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Kill.h">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Move.cpp">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Move.h">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Stay.cpp">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Stay.h">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Display/AbstractDisplay.cpp">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Display/AbstractDisplay.h">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Display/LinuxDisplay.cpp">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Display/LinuxDisplay.h">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Display/StandardDisplay.cpp">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Display/StandardDisplay.h">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Display/WindowsDisplay.cpp">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Display/WindowsDisplay.h">
+>>>>>>> Stashed changes
 			<Option target="POO_Labo4"/>
 		</Unit>
 		<Unit filename="C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/HumanoidType.h">
@@ -202,7 +254,23 @@
 		<Unit filename="C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Utils/Utils.h">
 			<Option target="POO_Labo4"/>
 		</Unit>
+<<<<<<< Updated upstream
 		<Unit filename="C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/main.cpp">
+=======
+		<Unit filename="D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Input/Event.cpp">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Input/Event.h">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Input/KeyListener.cpp">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Input/KeyListener.h">
+			<Option target="POO_Labo4"/>
+		</Unit>
+		<Unit filename="D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/main.cpp">
+>>>>>>> Stashed changes
 			<Option target="POO_Labo4"/>
 		</Unit>
 		<Unit filename="C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/CMakeLists.txt">

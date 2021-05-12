@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
+<<<<<<< Updated upstream
   "CMakeFiles/3.17.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeRCCompiler.cmake"
@@ -38,6 +39,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "E:/Program Files/JetBrains/CLion 2019.3.3/bin/cmake/win/share/cmake-3.17/Modules/Platform/Windows.cmake"
   "E:/Program Files/JetBrains/CLion 2019.3.3/bin/cmake/win/share/cmake-3.17/Modules/Platform/WindowsPaths.cmake"
   "E:/Program Files/JetBrains/CLion 2019.3.3/bin/cmake/win/share/cmake-3.17/Modules/ProcessorCount.cmake"
+=======
+  "CMakeFiles/3.17.5/CMakeCCompiler.cmake"
+  "CMakeFiles/3.17.5/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.17.5/CMakeRCCompiler.cmake"
+  "CMakeFiles/3.17.5/CMakeSystem.cmake"
+>>>>>>> Stashed changes
   )
 
 # The corresponding makefile is:
