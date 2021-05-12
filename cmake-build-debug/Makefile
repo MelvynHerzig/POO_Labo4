@@ -250,6 +250,7 @@ Actions/Stay.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Actions/Stay.cpp.s
 .PHONY : Actions/Stay.cpp.s
 
+<<<<<<< Updated upstream
 BuffyAndVampires.obj: BuffyAndVampires.cpp.obj
 
 .PHONY : BuffyAndVampires.obj
@@ -277,6 +278,8 @@ BuffyAndVampires.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/BuffyAndVampires.cpp.s
 .PHONY : BuffyAndVampires.cpp.s
 
+=======
+>>>>>>> Stashed changes
 Display/AbstractDisplay.obj: Display/AbstractDisplay.cpp.obj
 
 .PHONY : Display/AbstractDisplay.obj
@@ -600,6 +603,7 @@ Input/KeyListener.s: Input/KeyListener.cpp.s
 Input/KeyListener.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Input/KeyListener.cpp.s
 .PHONY : Input/KeyListener.cpp.s
+<<<<<<< Updated upstream
 
 Utils/Utils.obj: Utils/Utils.cpp.obj
 
@@ -627,6 +631,8 @@ Utils/Utils.s: Utils/Utils.cpp.s
 Utils/Utils.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Utils/Utils.cpp.s
 .PHONY : Utils/Utils.cpp.s
+=======
+>>>>>>> Stashed changes
 
 main.obj: main.cpp.obj
 
@@ -676,9 +682,12 @@ help:
 	@echo ... Actions/Stay.obj
 	@echo ... Actions/Stay.i
 	@echo ... Actions/Stay.s
+<<<<<<< Updated upstream
 	@echo ... BuffyAndVampires.obj
 	@echo ... BuffyAndVampires.i
 	@echo ... BuffyAndVampires.s
+=======
+>>>>>>> Stashed changes
 	@echo ... Display/AbstractDisplay.obj
 	@echo ... Display/AbstractDisplay.i
 	@echo ... Display/AbstractDisplay.s
@@ -715,9 +724,12 @@ help:
 	@echo ... Input/KeyListener.obj
 	@echo ... Input/KeyListener.i
 	@echo ... Input/KeyListener.s
+<<<<<<< Updated upstream
 	@echo ... Utils/Utils.obj
 	@echo ... Utils/Utils.i
 	@echo ... Utils/Utils.s
+=======
+>>>>>>> Stashed changes
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

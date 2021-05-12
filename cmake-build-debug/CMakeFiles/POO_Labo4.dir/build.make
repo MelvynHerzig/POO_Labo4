@@ -167,10 +167,93 @@ CMakeFiles/POO_Labo4.dir/Input/Event.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POO_Labo4.dir/Input/Event.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\Input\Event.cpp" -o CMakeFiles\POO_Labo4.dir\Input\Event.cpp.s
 
+CMakeFiles/POO_Labo4.dir/Display/StandardDisplay.cpp.obj: CMakeFiles/POO_Labo4.dir/flags.make
+CMakeFiles/POO_Labo4.dir/Display/StandardDisplay.cpp.obj: ../Display/StandardDisplay.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/POO_Labo4.dir/Display/StandardDisplay.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO_Labo4.dir\Display\StandardDisplay.cpp.obj -c "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Display\StandardDisplay.cpp"
+
+CMakeFiles/POO_Labo4.dir/Display/StandardDisplay.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POO_Labo4.dir/Display/StandardDisplay.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Display\StandardDisplay.cpp" > CMakeFiles\POO_Labo4.dir\Display\StandardDisplay.cpp.i
+
+CMakeFiles/POO_Labo4.dir/Display/StandardDisplay.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POO_Labo4.dir/Display/StandardDisplay.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Display\StandardDisplay.cpp" -o CMakeFiles\POO_Labo4.dir\Display\StandardDisplay.cpp.s
+
+CMakeFiles/POO_Labo4.dir/Display/WindowsDisplay.cpp.obj: CMakeFiles/POO_Labo4.dir/flags.make
+CMakeFiles/POO_Labo4.dir/Display/WindowsDisplay.cpp.obj: ../Display/WindowsDisplay.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/POO_Labo4.dir/Display/WindowsDisplay.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO_Labo4.dir\Display\WindowsDisplay.cpp.obj -c "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Display\WindowsDisplay.cpp"
+
+CMakeFiles/POO_Labo4.dir/Display/WindowsDisplay.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POO_Labo4.dir/Display/WindowsDisplay.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Display\WindowsDisplay.cpp" > CMakeFiles\POO_Labo4.dir\Display\WindowsDisplay.cpp.i
+
+CMakeFiles/POO_Labo4.dir/Display/WindowsDisplay.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POO_Labo4.dir/Display/WindowsDisplay.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Display\WindowsDisplay.cpp" -o CMakeFiles\POO_Labo4.dir\Display\WindowsDisplay.cpp.s
+
+CMakeFiles/POO_Labo4.dir/Display/LinuxDisplay.cpp.obj: CMakeFiles/POO_Labo4.dir/flags.make
+CMakeFiles/POO_Labo4.dir/Display/LinuxDisplay.cpp.obj: ../Display/LinuxDisplay.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/POO_Labo4.dir/Display/LinuxDisplay.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO_Labo4.dir\Display\LinuxDisplay.cpp.obj -c "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Display\LinuxDisplay.cpp"
+
+CMakeFiles/POO_Labo4.dir/Display/LinuxDisplay.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POO_Labo4.dir/Display/LinuxDisplay.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Display\LinuxDisplay.cpp" > CMakeFiles\POO_Labo4.dir\Display\LinuxDisplay.cpp.i
+
+CMakeFiles/POO_Labo4.dir/Display/LinuxDisplay.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POO_Labo4.dir/Display/LinuxDisplay.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Display\LinuxDisplay.cpp" -o CMakeFiles\POO_Labo4.dir\Display\LinuxDisplay.cpp.s
+
+CMakeFiles/POO_Labo4.dir/Display/AbstractDisplay.cpp.obj: CMakeFiles/POO_Labo4.dir/flags.make
+CMakeFiles/POO_Labo4.dir/Display/AbstractDisplay.cpp.obj: ../Display/AbstractDisplay.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/POO_Labo4.dir/Display/AbstractDisplay.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO_Labo4.dir\Display\AbstractDisplay.cpp.obj -c "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Display\AbstractDisplay.cpp"
+
+CMakeFiles/POO_Labo4.dir/Display/AbstractDisplay.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POO_Labo4.dir/Display/AbstractDisplay.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Display\AbstractDisplay.cpp" > CMakeFiles\POO_Labo4.dir\Display\AbstractDisplay.cpp.i
+
+CMakeFiles/POO_Labo4.dir/Display/AbstractDisplay.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POO_Labo4.dir/Display/AbstractDisplay.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Display\AbstractDisplay.cpp" -o CMakeFiles\POO_Labo4.dir\Display\AbstractDisplay.cpp.s
+
+CMakeFiles/POO_Labo4.dir/Input/KeyListener.cpp.obj: CMakeFiles/POO_Labo4.dir/flags.make
+CMakeFiles/POO_Labo4.dir/Input/KeyListener.cpp.obj: ../Input/KeyListener.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/POO_Labo4.dir/Input/KeyListener.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO_Labo4.dir\Input\KeyListener.cpp.obj -c "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Input\KeyListener.cpp"
+
+CMakeFiles/POO_Labo4.dir/Input/KeyListener.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POO_Labo4.dir/Input/KeyListener.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Input\KeyListener.cpp" > CMakeFiles\POO_Labo4.dir\Input\KeyListener.cpp.i
+
+CMakeFiles/POO_Labo4.dir/Input/KeyListener.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POO_Labo4.dir/Input/KeyListener.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Input\KeyListener.cpp" -o CMakeFiles\POO_Labo4.dir\Input\KeyListener.cpp.s
+
+CMakeFiles/POO_Labo4.dir/Input/Event.cpp.obj: CMakeFiles/POO_Labo4.dir/flags.make
+CMakeFiles/POO_Labo4.dir/Input/Event.cpp.obj: ../Input/Event.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/POO_Labo4.dir/Input/Event.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO_Labo4.dir\Input\Event.cpp.obj -c "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Input\Event.cpp"
+
+CMakeFiles/POO_Labo4.dir/Input/Event.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POO_Labo4.dir/Input/Event.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Input\Event.cpp" > CMakeFiles\POO_Labo4.dir\Input\Event.cpp.i
+
+CMakeFiles/POO_Labo4.dir/Input/Event.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POO_Labo4.dir/Input/Event.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Input\Event.cpp" -o CMakeFiles\POO_Labo4.dir\Input\Event.cpp.s
+
 CMakeFiles/POO_Labo4.dir/Field.cpp.obj: CMakeFiles/POO_Labo4.dir/flags.make
 CMakeFiles/POO_Labo4.dir/Field.cpp.obj: ../Field.cpp
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/POO_Labo4.dir/Field.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO_Labo4.dir\Field.cpp.obj -c "C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\Field.cpp"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/POO_Labo4.dir/Field.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO_Labo4.dir\Field.cpp.obj -c "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Field.cpp"
+>>>>>>> Stashed changes
 
 CMakeFiles/POO_Labo4.dir/Field.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POO_Labo4.dir/Field.cpp.i"
@@ -182,8 +265,13 @@ CMakeFiles/POO_Labo4.dir/Field.cpp.s: cmake_force
 
 CMakeFiles/POO_Labo4.dir/Entities/Humanoid.cpp.obj: CMakeFiles/POO_Labo4.dir/flags.make
 CMakeFiles/POO_Labo4.dir/Entities/Humanoid.cpp.obj: ../Entities/Humanoid.cpp
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/POO_Labo4.dir/Entities/Humanoid.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO_Labo4.dir\Entities\Humanoid.cpp.obj -c "C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\Entities\Humanoid.cpp"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/POO_Labo4.dir/Entities/Humanoid.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO_Labo4.dir\Entities\Humanoid.cpp.obj -c "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Entities\Humanoid.cpp"
+>>>>>>> Stashed changes
 
 CMakeFiles/POO_Labo4.dir/Entities/Humanoid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POO_Labo4.dir/Entities/Humanoid.cpp.i"
@@ -195,8 +283,13 @@ CMakeFiles/POO_Labo4.dir/Entities/Humanoid.cpp.s: cmake_force
 
 CMakeFiles/POO_Labo4.dir/Entities/Vampire.cpp.obj: CMakeFiles/POO_Labo4.dir/flags.make
 CMakeFiles/POO_Labo4.dir/Entities/Vampire.cpp.obj: ../Entities/Vampire.cpp
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/POO_Labo4.dir/Entities/Vampire.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO_Labo4.dir\Entities\Vampire.cpp.obj -c "C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\Entities\Vampire.cpp"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/POO_Labo4.dir/Entities/Vampire.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO_Labo4.dir\Entities\Vampire.cpp.obj -c "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Entities\Vampire.cpp"
+>>>>>>> Stashed changes
 
 CMakeFiles/POO_Labo4.dir/Entities/Vampire.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POO_Labo4.dir/Entities/Vampire.cpp.i"
@@ -208,8 +301,13 @@ CMakeFiles/POO_Labo4.dir/Entities/Vampire.cpp.s: cmake_force
 
 CMakeFiles/POO_Labo4.dir/Entities/Buffy.cpp.obj: CMakeFiles/POO_Labo4.dir/flags.make
 CMakeFiles/POO_Labo4.dir/Entities/Buffy.cpp.obj: ../Entities/Buffy.cpp
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/POO_Labo4.dir/Entities/Buffy.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO_Labo4.dir\Entities\Buffy.cpp.obj -c "C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\Entities\Buffy.cpp"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/POO_Labo4.dir/Entities/Buffy.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO_Labo4.dir\Entities\Buffy.cpp.obj -c "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Entities\Buffy.cpp"
+>>>>>>> Stashed changes
 
 CMakeFiles/POO_Labo4.dir/Entities/Buffy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POO_Labo4.dir/Entities/Buffy.cpp.i"
@@ -221,8 +319,13 @@ CMakeFiles/POO_Labo4.dir/Entities/Buffy.cpp.s: cmake_force
 
 CMakeFiles/POO_Labo4.dir/Entities/Human.cpp.obj: CMakeFiles/POO_Labo4.dir/flags.make
 CMakeFiles/POO_Labo4.dir/Entities/Human.cpp.obj: ../Entities/Human.cpp
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/POO_Labo4.dir/Entities/Human.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO_Labo4.dir\Entities\Human.cpp.obj -c "C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\Entities\Human.cpp"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/POO_Labo4.dir/Entities/Human.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO_Labo4.dir\Entities\Human.cpp.obj -c "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Entities\Human.cpp"
+>>>>>>> Stashed changes
 
 CMakeFiles/POO_Labo4.dir/Entities/Human.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POO_Labo4.dir/Entities/Human.cpp.i"
@@ -230,12 +333,34 @@ CMakeFiles/POO_Labo4.dir/Entities/Human.cpp.i: cmake_force
 
 CMakeFiles/POO_Labo4.dir/Entities/Human.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POO_Labo4.dir/Entities/Human.cpp.s"
+<<<<<<< Updated upstream
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\Entities\Human.cpp" -o CMakeFiles\POO_Labo4.dir\Entities\Human.cpp.s
 
 CMakeFiles/POO_Labo4.dir/Actions/Move.cpp.obj: CMakeFiles/POO_Labo4.dir/flags.make
 CMakeFiles/POO_Labo4.dir/Actions/Move.cpp.obj: ../Actions/Move.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/POO_Labo4.dir/Actions/Move.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO_Labo4.dir\Actions\Move.cpp.obj -c "C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\Actions\Move.cpp"
+=======
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Entities\Human.cpp" -o CMakeFiles\POO_Labo4.dir\Entities\Human.cpp.s
+
+CMakeFiles/POO_Labo4.dir/Entities/Position.cpp.obj: CMakeFiles/POO_Labo4.dir/flags.make
+CMakeFiles/POO_Labo4.dir/Entities/Position.cpp.obj: ../Entities/Position.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/POO_Labo4.dir/Entities/Position.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO_Labo4.dir\Entities\Position.cpp.obj -c "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Entities\Position.cpp"
+
+CMakeFiles/POO_Labo4.dir/Entities/Position.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POO_Labo4.dir/Entities/Position.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Entities\Position.cpp" > CMakeFiles\POO_Labo4.dir\Entities\Position.cpp.i
+
+CMakeFiles/POO_Labo4.dir/Entities/Position.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POO_Labo4.dir/Entities/Position.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Entities\Position.cpp" -o CMakeFiles\POO_Labo4.dir\Entities\Position.cpp.s
+
+CMakeFiles/POO_Labo4.dir/Actions/Move.cpp.obj: CMakeFiles/POO_Labo4.dir/flags.make
+CMakeFiles/POO_Labo4.dir/Actions/Move.cpp.obj: ../Actions/Move.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/POO_Labo4.dir/Actions/Move.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO_Labo4.dir\Actions\Move.cpp.obj -c "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Actions\Move.cpp"
+>>>>>>> Stashed changes
 
 CMakeFiles/POO_Labo4.dir/Actions/Move.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POO_Labo4.dir/Actions/Move.cpp.i"
@@ -247,8 +372,13 @@ CMakeFiles/POO_Labo4.dir/Actions/Move.cpp.s: cmake_force
 
 CMakeFiles/POO_Labo4.dir/Actions/Kill.cpp.obj: CMakeFiles/POO_Labo4.dir/flags.make
 CMakeFiles/POO_Labo4.dir/Actions/Kill.cpp.obj: ../Actions/Kill.cpp
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/POO_Labo4.dir/Actions/Kill.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO_Labo4.dir\Actions\Kill.cpp.obj -c "C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\Actions\Kill.cpp"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/POO_Labo4.dir/Actions/Kill.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO_Labo4.dir\Actions\Kill.cpp.obj -c "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Actions\Kill.cpp"
+>>>>>>> Stashed changes
 
 CMakeFiles/POO_Labo4.dir/Actions/Kill.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POO_Labo4.dir/Actions/Kill.cpp.i"
@@ -260,8 +390,13 @@ CMakeFiles/POO_Labo4.dir/Actions/Kill.cpp.s: cmake_force
 
 CMakeFiles/POO_Labo4.dir/Actions/Bite.cpp.obj: CMakeFiles/POO_Labo4.dir/flags.make
 CMakeFiles/POO_Labo4.dir/Actions/Bite.cpp.obj: ../Actions/Bite.cpp
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/POO_Labo4.dir/Actions/Bite.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO_Labo4.dir\Actions\Bite.cpp.obj -c "C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\Actions\Bite.cpp"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/POO_Labo4.dir/Actions/Bite.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO_Labo4.dir\Actions\Bite.cpp.obj -c "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Actions\Bite.cpp"
+>>>>>>> Stashed changes
 
 CMakeFiles/POO_Labo4.dir/Actions/Bite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POO_Labo4.dir/Actions/Bite.cpp.i"
@@ -273,8 +408,13 @@ CMakeFiles/POO_Labo4.dir/Actions/Bite.cpp.s: cmake_force
 
 CMakeFiles/POO_Labo4.dir/Actions/Stay.cpp.obj: CMakeFiles/POO_Labo4.dir/flags.make
 CMakeFiles/POO_Labo4.dir/Actions/Stay.cpp.obj: ../Actions/Stay.cpp
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/POO_Labo4.dir/Actions/Stay.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO_Labo4.dir\Actions\Stay.cpp.obj -c "C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\Actions\Stay.cpp"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/POO_Labo4.dir/Actions/Stay.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\POO_Labo4.dir\Actions\Stay.cpp.obj -c "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Actions\Stay.cpp"
+>>>>>>> Stashed changes
 
 CMakeFiles/POO_Labo4.dir/Actions/Stay.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/POO_Labo4.dir/Actions/Stay.cpp.i"
@@ -282,6 +422,7 @@ CMakeFiles/POO_Labo4.dir/Actions/Stay.cpp.i: cmake_force
 
 CMakeFiles/POO_Labo4.dir/Actions/Stay.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POO_Labo4.dir/Actions/Stay.cpp.s"
+<<<<<<< Updated upstream
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\Actions\Stay.cpp" -o CMakeFiles\POO_Labo4.dir\Actions\Stay.cpp.s
 
 CMakeFiles/POO_Labo4.dir/BuffyAndVampires.cpp.obj: CMakeFiles/POO_Labo4.dir/flags.make
@@ -322,6 +463,9 @@ CMakeFiles/POO_Labo4.dir/Utils/Utils.cpp.i: cmake_force
 CMakeFiles/POO_Labo4.dir/Utils/Utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/POO_Labo4.dir/Utils/Utils.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\Utils\Utils.cpp" -o CMakeFiles\POO_Labo4.dir\Utils\Utils.cpp.s
+=======
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\Actions\Stay.cpp" -o CMakeFiles\POO_Labo4.dir\Actions\Stay.cpp.s
+>>>>>>> Stashed changes
 
 # Object files for target POO_Labo4
 POO_Labo4_OBJECTS = \
@@ -340,10 +484,14 @@ POO_Labo4_OBJECTS = \
 "CMakeFiles/POO_Labo4.dir/Actions/Move.cpp.obj" \
 "CMakeFiles/POO_Labo4.dir/Actions/Kill.cpp.obj" \
 "CMakeFiles/POO_Labo4.dir/Actions/Bite.cpp.obj" \
+<<<<<<< Updated upstream
 "CMakeFiles/POO_Labo4.dir/Actions/Stay.cpp.obj" \
 "CMakeFiles/POO_Labo4.dir/BuffyAndVampires.cpp.obj" \
 "CMakeFiles/POO_Labo4.dir/Entities/position/Position.cpp.obj" \
 "CMakeFiles/POO_Labo4.dir/Utils/Utils.cpp.obj"
+=======
+"CMakeFiles/POO_Labo4.dir/Actions/Stay.cpp.obj"
+>>>>>>> Stashed changes
 
 # External object files for target POO_Labo4
 POO_Labo4_EXTERNAL_OBJECTS =
@@ -364,14 +512,21 @@ POO_Labo4.exe: CMakeFiles/POO_Labo4.dir/Actions/Move.cpp.obj
 POO_Labo4.exe: CMakeFiles/POO_Labo4.dir/Actions/Kill.cpp.obj
 POO_Labo4.exe: CMakeFiles/POO_Labo4.dir/Actions/Bite.cpp.obj
 POO_Labo4.exe: CMakeFiles/POO_Labo4.dir/Actions/Stay.cpp.obj
+<<<<<<< Updated upstream
 POO_Labo4.exe: CMakeFiles/POO_Labo4.dir/BuffyAndVampires.cpp.obj
 POO_Labo4.exe: CMakeFiles/POO_Labo4.dir/Entities/position/Position.cpp.obj
 POO_Labo4.exe: CMakeFiles/POO_Labo4.dir/Utils/Utils.cpp.obj
+=======
+>>>>>>> Stashed changes
 POO_Labo4.exe: CMakeFiles/POO_Labo4.dir/build.make
 POO_Labo4.exe: CMakeFiles/POO_Labo4.dir/linklibs.rsp
 POO_Labo4.exe: CMakeFiles/POO_Labo4.dir/objects1.rsp
 POO_Labo4.exe: CMakeFiles/POO_Labo4.dir/link.txt
+<<<<<<< Updated upstream
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable POO_Labo4.exe"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable POO_Labo4.exe"
+>>>>>>> Stashed changes
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\POO_Labo4.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

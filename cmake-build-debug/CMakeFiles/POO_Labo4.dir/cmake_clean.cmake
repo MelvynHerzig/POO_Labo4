@@ -3,7 +3,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/POO_Labo4.dir/Actions/Kill.cpp.obj"
   "CMakeFiles/POO_Labo4.dir/Actions/Move.cpp.obj"
   "CMakeFiles/POO_Labo4.dir/Actions/Stay.cpp.obj"
+<<<<<<< Updated upstream
   "CMakeFiles/POO_Labo4.dir/BuffyAndVampires.cpp.obj"
+=======
+>>>>>>> Stashed changes
   "CMakeFiles/POO_Labo4.dir/Display/AbstractDisplay.cpp.obj"
   "CMakeFiles/POO_Labo4.dir/Display/LinuxDisplay.cpp.obj"
   "CMakeFiles/POO_Labo4.dir/Display/StandardDisplay.cpp.obj"
@@ -16,7 +19,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/POO_Labo4.dir/Field.cpp.obj"
   "CMakeFiles/POO_Labo4.dir/Input/Event.cpp.obj"
   "CMakeFiles/POO_Labo4.dir/Input/KeyListener.cpp.obj"
+<<<<<<< Updated upstream
   "CMakeFiles/POO_Labo4.dir/Utils/Utils.cpp.obj"
+=======
+>>>>>>> Stashed changes
   "CMakeFiles/POO_Labo4.dir/main.cpp.obj"
   "POO_Labo4.exe"
   "POO_Labo4.exe.manifest"
