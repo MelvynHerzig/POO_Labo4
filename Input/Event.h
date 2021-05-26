@@ -15,12 +15,12 @@ class Event
 {
 private:
 
-   using Func = std::function<void (BuffyAndVampires&)>;
+   using Function = std::function<void (BuffyAndVampires&)>;
 
    /**
     * @brief Événementà appliquer.
     */
-   Func event;
+   Function event;
 
 public:
 
@@ -29,7 +29,7 @@ public:
     *         BuffyAndVampires
     * @param event Action à effectuer
     */
-   Event (Func event);
+   Event (Function event);
 
    /**
     * @brief Déclanche l'action sur le contrôleur BuffyAndVampires.
