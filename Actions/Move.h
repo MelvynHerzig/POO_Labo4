@@ -6,7 +6,7 @@
 #include "../Entities/IKillable.h"
 
 /**
- * @brief Classe Move héritant de Action. Permet d'effectuer l'action de se déplacer à une direction
+ * @brief Classe Move héritant de Action. Permet d'effectuer l'action de se déplacer à une newPosition
  * @date 05/05/2021
  * @authors Forestier Quentin & Herzig Melvyn
  * @compiler MinGW-g++ 6.3.0
@@ -22,7 +22,7 @@ private:
     /**
      * @brief Direction dans laquelle l'humanoïde doit se déplacer
      */
-    Position direction;
+    Position newPosition;
 
 public:
     Move(Humanoid& humanoid, const Position& direction);

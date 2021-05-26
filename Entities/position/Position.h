@@ -2,8 +2,8 @@
 #define POO_LABO4_POSITION_H
 
 /**
- * @brief Classe représentant la direction des entités.
- *        Une direction est exprimée en nombres entiers positifs avec une direction x
+ * @brief Classe représentant la newPosition des entités.
+ *        Une newPosition est exprimée en nombres entiers positifs avec une newPosition x
  *        sur l'axe horizontal et y sur l'axe vertical.
  * @date 09/05/2021
  * @authors Forestier Quentin & Herzig Melvyn
@@ -25,21 +25,21 @@ private:
 
 public:
    /**
-     * @brief Constructeur. Définit la direction.
+     * @brief Constructeur. Définit la newPosition.
      * @param x Position horizontale
      * @param y Position verticale
      */
    Position(int x, int y);
 
    /**
-     * @brief Accesseur direction horizontale.
-     * @return Retourne la direction horizontale.
+     * @brief Accesseur newPosition horizontale.
+     * @return Retourne la newPosition horizontale.
      */
    int getX() const;
 
    /**
-    * @brief Accesseur direction verticale.
-    * @return Retourne la direction verticale.
+    * @brief Accesseur newPosition verticale.
+    * @return Retourne la newPosition verticale.
     */
    int getY() const;
 

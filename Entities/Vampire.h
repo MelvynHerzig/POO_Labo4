@@ -14,7 +14,7 @@ class Vampire : public IKillable, public Humanoid
 {
 public:
    /**
-    * @brief Constructeur, définit la direction du vampire
+    * @brief Constructeur, définit la newPosition du vampire
     * @param position Position à assigner.
     */
    explicit Vampire(const Position& position);

@@ -11,7 +11,7 @@ class Human : public Humanoid, public IKillable
 public:
 
    /**
-   * @brief Constructeur, définit la direction de l'humain
+   * @brief Constructeur, définit la newPosition de l'humain
    * @param position Position à assigner.
    */
    explicit Human (const Position &position);
@@ -34,8 +34,6 @@ public:
     * @param f Environnement dans lequel ajouter le vampire
     */
    void transformToVampire (Field &f);
-
-   void setAction(Field& f);
 
    void kill() override;
 

@@ -118,7 +118,7 @@
       </method>
       <method isAbstract="false" isStatic="false" name="const_isAlive" returnType="bool" view="DEFAULT" visibility="PUBLIC"/>
       <method isAbstract="false" isStatic="false" name="move" returnType="void" view="DEFAULT" visibility="PUBLIC">
-        <variable const="false" name="direction" type="Position&amp;"/>
+        <variable const="false" name="newPosition" type="Position&amp;"/>
       </method>
     </entity>
     <entity entityType="CLASS" id="71640" isAbstract="false" name="KeyListener" visibility="PUBLIC">
