@@ -10,9 +10,9 @@ BuffyAndVampires::BuffyAndVampires(const AbstractDisplay& display,
                                    size_t humansToCreate,
                                    size_t vampiresToCreate) :
         display(display),
-        SIZE(size),
-        HUMANS_TO_CREATE(humansToCreate),
-        VAMPIRES_TO_CREATE(vampiresToCreate),
+        size(size),
+        humansToCreate(humansToCreate),
+        vampiresToCreate(vampiresToCreate),
         field(size, humansToCreate, vampiresToCreate),
         exit(false)
 {
@@ -21,13 +21,11 @@ BuffyAndVampires::BuffyAndVampires(const AbstractDisplay& display,
 
 void BuffyAndVampires::run()
 {
-   noTurn = 1;
+   noTurn = 0;
    printState();
    while (!exit)
    {
-
       listener.getNextInput(noTurn).trigger(*this);
-
    }
 }
 
@@ -46,7 +44,7 @@ void BuffyAndVampires::statistics()
    Position position(0, 0);
    for (size_t i = 0; i < NB_SIMULATIONS; ++i)
    {
-      Field simulation(SIZE, HUMANS_TO_CREATE, VAMPIRES_TO_CREATE);
+      Field simulation(size, humansToCreate, vampiresToCreate);
 
       const Human* humanRemaining;
 

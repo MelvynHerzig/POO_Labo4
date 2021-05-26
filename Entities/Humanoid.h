@@ -12,7 +12,8 @@ class Field;
 class AbstractDisplay;
 
 /**
- * @brief Classe abstraite Humanoid. Parente de Buffy, Vampire, Human. Défini leurs méthodes communes.
+ * @brief Classe abstraite Humanoid. Parente de Buffy, Vampire, Human.
+ *        Défini leurs méthodes communes.
  * @date 05/05/2021
  * @authors Forestier Quentin & Herzig Melvyn
  * @compiler MinGW-g++ 6.3.0
@@ -105,6 +106,5 @@ public:
    virtual size_t moveDistance() const;
 
 };
-
 
 #endif //POO_LABO4_HUMANOID_H

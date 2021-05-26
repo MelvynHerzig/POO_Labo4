@@ -39,12 +39,12 @@ void Field::createHumanoid(const Position& position)
 
 
 template <typename humanoidClass>
-void Field::createHumanoids(std::size_t amout)
+void Field::createHumanoids(std::size_t amount)
 {
-   for (std::size_t i = 0; i < amout; ++i)
+   for (std::size_t i = 0; i < amount; ++i)
    {
-      createHumanoid<humanoidClass>(Position{Utils::randomInteger(0, (int) SIZE),
-                                             Utils::randomInteger(0, (int) SIZE)});
+      createHumanoid<humanoidClass>(Position{Utils::randomInteger(0, (int) size),
+                                             Utils::randomInteger(0, (int) size)});
    }
 }
 

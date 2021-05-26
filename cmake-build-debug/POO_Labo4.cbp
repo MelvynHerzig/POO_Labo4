@@ -157,9 +157,6 @@
 		<Unit filename="C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Humanoid.h">
 			<Option target="POO_Labo4"/>
 		</Unit>
-		<Unit filename="C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/HumanoidType.h">
-			<Option target="POO_Labo4"/>
-		</Unit>
 		<Unit filename="C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/IKillable.h">
 			<Option target="POO_Labo4"/>
 		</Unit>

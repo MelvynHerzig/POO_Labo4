@@ -8,7 +8,7 @@
 
 using namespace std;
 
-Field::Field(size_t size, size_t humansToCreate, size_t vampiresToCreate) : SIZE(size), turn(1)
+Field::Field(size_t size, size_t humansToCreate, size_t vampiresToCreate) : size(size), turn(1)
 {
 
     // Création des humanoïdes.
@@ -51,7 +51,7 @@ int Field::nextTurn()
 
 std::size_t Field::getSize() const
 {
-    return SIZE;
+    return size;
 }
 
 bool Field::hasHumanoidAt(unsigned int x, unsigned int y) const
