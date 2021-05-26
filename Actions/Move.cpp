@@ -2,12 +2,7 @@
 
 using namespace std;
 
-Move::Move(Humanoid& humanoid, const Position& direction) : humanoidToMove(humanoid), direction(direction)
-{
-
-}
-
-void Move::execute(Field&)
+Move::Move(Humanoid& humanoid, const Position& direction) : humanoidToMove(humanoid), newPosition(0, 0)
 {
    Position currentPos = humanoidToMove.getPosition();
 
@@ -35,8 +30,11 @@ void Move::execute(Field&)
       currentPos = tmpPos;
    }
 
-   direction = currentPos;
+   newPosition = currentPos;
+}
 
-   humanoidToMove.move(direction);
+void Move::execute(Field&)
+{
+   humanoidToMove.move(newPosition);
 }
 

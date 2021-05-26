@@ -58,7 +58,7 @@ std::size_t Field::getSize() const
 
 bool Field::hasHumanoidAt(unsigned int x, unsigned int y) const
 {
-    // On recherche le premier humanoïde à la direction x,y.
+    // On recherche le premier humanoïde à la newPosition x,y.
     for (Humanoid* humanoid : humanoids)
     {
         if (humanoid->isAt(x, y)) return true;
@@ -76,7 +76,7 @@ const Humanoid& Field::getHumanoidAt (unsigned int x, unsigned int y) const
 
     if (it == humanoids.end())
     {
-        throw runtime_error("No humanoid at direction required");
+        throw runtime_error("No humanoid at newPosition required");
     }
 
     return **it;

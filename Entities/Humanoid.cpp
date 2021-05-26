@@ -1,4 +1,7 @@
 #include "Humanoid.h"
+#include "../Utils/Utils.h"
+#include "../Actions/Move.h"
+#include "../Field.h"
 
 Humanoid::Humanoid(const Position& position) : alive(true), position(position), action(nullptr), direction(position)
 {}
@@ -6,6 +9,15 @@ Humanoid::Humanoid(const Position& position) : alive(true), position(position), 
 Humanoid::~Humanoid()
 {
    delete action;
+}
+
+void Humanoid::setAction(Field& f)
+{
+   if (direction.getX() == position.getX() && direction.getY() == position.getY())
+   {
+      direction = Utils::randomPosition(f.getSize());
+   }
+   action = new Move(*this, direction);
 }
 
 void Humanoid::executeAction(Field& f)
@@ -40,6 +52,8 @@ size_t Humanoid::moveDistance() const
 {
    return 1;
 }
+
+
 
 
 

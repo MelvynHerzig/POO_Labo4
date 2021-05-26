@@ -61,15 +61,15 @@ public:
     std::size_t getSize() const;
 
     /**
-     * @brief Retourne vrai si un hamnoïde à la direction (x,y)
+     * @brief Retourne vrai si un hamnoïde à la newPosition (x,y)
      * @return
      */
     bool hasHumanoidAt(unsigned x, unsigned y) const;
 
    /**
-    * @brief Accède à l'humanoïde en direction (x,y).
-    * @return Retourne une référence sur l'humanoïde en direction (x,y).
-    * @throw runtime_error Si aucun humanoïde est en direction x,y.
+    * @brief Accède à l'humanoïde en newPosition (x,y).
+    * @return Retourne une référence sur l'humanoïde en newPosition (x,y).
+    * @throw runtime_error Si aucun humanoïde est en newPosition x,y.
     */
    const Humanoid& getHumanoidAt(unsigned x, unsigned y) const;
 
@@ -94,7 +94,7 @@ public:
 private:
 
    /**
-    * @brief Crée un montant donnée d'humanoïdes à une direction aléatoire.
+    * @brief Crée un montant donnée d'humanoïdes à une newPosition aléatoire.
     * @tparam humanoidClass Spécialisation d'humanoïde
     * @param amout Quantité à créer.
     */

@@ -1,7 +1,6 @@
 #include "Buffy.h"
 #include "Vampire.h"
 #include "../Actions/Move.h"
-#include "../Actions/Stay.h"
 #include "../Utils/Utils.h"
 #include "../Actions/Kill.h"
 #include "../Field.h"
@@ -26,16 +25,11 @@ void Buffy::setAction(Field& f)
    const Vampire* target = f.getNearestKillable<const Vampire>(this->position);
    if (target == nullptr)
    {
-      if (direction.getX() == position.getX() && direction.getY() == position.getY())
-      {
-         direction = Utils::randomPosition(f.getSize());
-      }
-      action = new Move(*this, direction);
+      Humanoid::setAction(f);
       return;
    }
 
-   // Recupe humain plus proche
-   if (Position::getDistanceBetween(target->getPosition(), this->position) <= this->moveDistance())
+   if (Position::getDistanceBetween(target->getPosition(), this->position) <= sqrt(2))
    {
       action = new Kill((IKillable&) *target);
    } else

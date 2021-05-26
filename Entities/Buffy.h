@@ -14,7 +14,7 @@ class Buffy : public Humanoid
 public:
 
    /**
-   * @brief Constructeur, définit la direction de Buffy
+   * @brief Constructeur, définit la newPosition de Buffy
    * @param position Position à assigner.
    */
    explicit Buffy (const Position &position);

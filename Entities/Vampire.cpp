@@ -30,8 +30,7 @@ void Vampire::setAction(Field& f)
       return;
    }
 
-   // Recupe humain plus proche
-   if (Position::getDistanceBetween(target->getPosition(), this->position) <= this->moveDistance())
+   if (Position::getDistanceBetween(target->getPosition(), this->position) <= sqrt(2))
    {
       if (Utils::randomInteger(0, 2))
       {

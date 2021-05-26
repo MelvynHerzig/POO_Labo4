@@ -48,10 +48,9 @@ void BuffyAndVampires::statistics()
    {
       Field simulation(SIZE, HUMANS_TO_CREATE, VAMPIRES_TO_CREATE);
 
-      const Vampire* vampireRemaining;
       const Human* humanRemaining;
 
-      while ((vampireRemaining = simulation.getNearestKillable<const Vampire>(position)) != nullptr
+      while (simulation.getNearestKillable<const Vampire>(position) != nullptr
              && (humanRemaining = simulation.getNearestKillable<const Human>(position)) != nullptr)
       {
          simulation.nextTurn();
