@@ -1,6 +1,6 @@
 #include "Event.h"
 
-Event::Event (Event::Func event) : event(event)
+Event::Event (Event::Function event) : event(event)
 {}
 
 void Event::trigger (BuffyAndVampires &controller) const
