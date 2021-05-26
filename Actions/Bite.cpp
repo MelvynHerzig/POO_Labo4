@@ -5,5 +5,5 @@ Bite::Bite(Human& human) : human(human)
 
 void Bite::execute(Field& f)
 {
-    human.transformToVampire(f);
+   human.transformToVampire(f);
 }

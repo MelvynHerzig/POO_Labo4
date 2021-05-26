@@ -15,11 +15,11 @@ public:
 
    virtual ~Action() = default;
 
-    /**
-    * @brief Exécute l'action
-    * @param f Environnement dans lequel est appliqué l'action
-    */
-    virtual void execute(Field& f) = 0;
+   /**
+   * @brief Exécute l'action
+   * @param f Environnement dans lequel est appliqué l'action
+   */
+   virtual void execute(Field& f) = 0;
 };
 
 

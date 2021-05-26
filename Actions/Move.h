@@ -14,21 +14,29 @@
 class Move : public Action
 {
 private:
-    /**
-     * @brief L'humanoïde qui doit être déplacé
-     */
-    Humanoid& humanoidToMove;
+   /**
+    * @brief L'humanoïde qui doit être déplacé
+    */
+   Humanoid& humanoidToMove;
 
-    /**
-     * @brief Direction dans laquelle l'humanoïde doit se déplacer
-     */
-    Position newPosition;
+   /**
+    * @brief Direction dans laquelle l'humanoïde doit se déplacer
+    */
+   Position newPosition;
 
 public:
-    Move(Humanoid& humanoid, const Position& direction);
+   /**
+    * @brief Constructeur de la classe
+    * @param humanoid
+    * @param direction
+    */
+   Move(Humanoid& humanoid, const Position& direction);
 
-
-    void execute(Field& f) override;
+   /**
+   * @brief Exécute l'action
+   * @param f Environnement dans lequel est appliqué l'action
+   */
+   void execute(Field& f) override;
 };
 
 

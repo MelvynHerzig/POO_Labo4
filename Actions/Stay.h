@@ -13,7 +13,11 @@
 class Stay : public Action
 {
 public:
-    void execute(Field &f) override;
+   /**
+    * @brief Exécute l'action
+    * @param f Environnement dans lequel est appliqué l'action
+    */
+   void execute(Field& f) override;
 };
 
 

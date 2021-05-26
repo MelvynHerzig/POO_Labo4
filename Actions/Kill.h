@@ -14,18 +14,22 @@
 class Kill : public Action
 {
 private:
-    /**
-     * @brief Cible à tuer
-     */
-    IKillable& target;
+   /**
+    * @brief Cible à tuer
+    */
+   IKillable& target;
 public:
-    /**
-     * @brief Constructeur de la classe
-     * @param target Cible à tuer
-     */
-    explicit Kill(IKillable& target);
+   /**
+    * @brief Constructeur de la classe
+    * @param target Cible à tuer
+    */
+   explicit Kill(IKillable& target);
 
-    void execute(Field &f) override;
+   /**
+   * @brief Exécute l'action
+   * @param f Environnement dans lequel est appliqué l'action
+   */
+   void execute(Field& f) override;
 };
 
 

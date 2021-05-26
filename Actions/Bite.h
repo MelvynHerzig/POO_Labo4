@@ -14,19 +14,23 @@
 class Bite : public Action
 {
 private:
-    /**
-     * @brief Humain à transformer en vampire
-     */
-    Human& human;
+   /**
+    * @brief Humain à transformer en vampire
+    */
+   Human& human;
 
 public:
-    /**
-     * @brief Constructeur de la classe
-     * @param human Humain à transformer en vampire
-     */
-    explicit Bite(Human& human);
+   /**
+    * @brief Constructeur de la classe
+    * @param human Humain à transformer en vampire
+    */
+   explicit Bite(Human& human);
 
-    void execute(Field &f) override;
+   /**
+   * @brief Exécute l'action
+   * @param f Environnement dans lequel est appliqué l'action
+   */
+   void execute(Field& f) override;
 
 };
 
