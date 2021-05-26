@@ -1,8 +1,6 @@
 #ifndef POO_LABO4_ACTION_H
 #define POO_LABO4_ACTION_H
 
-#include "../Field.h"
-
 class Field;
 
 /**
@@ -14,6 +12,9 @@ class Field;
 class Action
 {
 public:
+
+   virtual ~Action() = default;
+
     /**
     * @brief Exécute l'action
     * @param f Environnement dans lequel est appliqué l'action

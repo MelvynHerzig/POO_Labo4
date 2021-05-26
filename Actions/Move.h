@@ -6,7 +6,7 @@
 #include "../Entities/IKillable.h"
 
 /**
- * @brief Classe Move héritant de Action. Permet d'effectuer l'action de se déplacer à une position
+ * @brief Classe Move héritant de Action. Permet d'effectuer l'action de se déplacer à une direction
  * @date 05/05/2021
  * @authors Forestier Quentin & Herzig Melvyn
  * @compiler MinGW-g++ 6.3.0
@@ -20,27 +20,13 @@ private:
     Humanoid& humanoidToMove;
 
     /**
-     * @brief La position a laquelle l'humanoïde doit être déplacé
+     * @brief Direction dans laquelle l'humanoïde doit se déplacer
      */
-    Position position;
+    Position direction;
 
 public:
-    /**
-     * @brief Constructeur de la classe
-     * @param humanoid Humanoïde sur lequel effectué le mouvement
-     */
-    explicit Move(Humanoid& humanoid);
+    Move(Humanoid& humanoid, const Position& direction);
 
-    /**
-     * @brief Crée une position à une certaine distance de l'humanoïde à déplacer
-     */
-    void createRandomMove();
-
-    /**
-     * @brief Crée une position dans la direction de la cible, à une certaine distance de l'humanoïde à déplacer
-     * @param target Cible a traquer
-     */
-    void createDirectedMove(IKillable& target);
 
     void execute(Field& f) override;
 };

@@ -1,17 +1,52 @@
 #ifndef POO_LABO4_GENERICFIELD_H
 #define POO_LABO4_GENERICFIELD_H
 
-#include "Utils/Utils.h"
-#include "Entities/position/Position.h"
+#include <limits>
 
-template<typename humaoidClass>
-void Field::createHumanoid (std::size_t amout)
+#include "Utils/Utils.h"
+#include "Entities/Humanoid.h"
+
+template <typename humanoidClass>
+const humanoidClass* Field::getNearestKillable(const Position& position) const
 {
-   for(std::size_t i = 0; i < amout; ++i)
+   const humanoidClass* nearestHumanoid = nullptr;
+   double nearestDistance = std::numeric_limits<double>::max();
+
+   // Pour chaque humanoïdes du tableau
+   for (const Humanoid* h : humanoids)
    {
-      humanoids.emplace_back(new humaoidClass(Position{(unsigned) Utils::randomInteger(0, (int) SIZE),
-                                                       (unsigned) Utils::randomInteger(0, (int) SIZE)}));
+      // Si l'humanoïde n'a pas le bon type, on continue la recherche.
+      if (!dynamic_cast<const humanoidClass*>(h))
+      { continue; }
+
+      // Si la distance est plus courte que la plus courte trouvé jusqu'à présent
+      double distance = Position::getDistanceBetween(h->getPosition(), position);
+      if (distance < nearestDistance)
+      {
+         nearestHumanoid = dynamic_cast<const humanoidClass*>(h);
+         nearestDistance = distance;
+      }
+   }
+
+   return nearestHumanoid;
+}
+
+template <typename humanoidClass>
+void Field::createHumanoid(const Position& position)
+{
+   humanoids.emplace_back(new humanoidClass(position));
+}
+
+
+template <typename humanoidClass>
+void Field::createHumanoids(std::size_t amout)
+{
+   for (std::size_t i = 0; i < amout; ++i)
+   {
+      createHumanoid<humanoidClass>(Position{Utils::randomInteger(0, (int) SIZE),
+                                             Utils::randomInteger(0, (int) SIZE)});
    }
 }
+
 
 #endif //POO_LABO4_GENERICFIELD_H

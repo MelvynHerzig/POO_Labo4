@@ -14,7 +14,7 @@ class Buffy : public Humanoid
 public:
 
    /**
-   * @brief Constructeur, définit la position de Buffy
+   * @brief Constructeur, définit la direction de Buffy
    * @param position Position à assigner.
    */
    explicit Buffy (const Position &position);
@@ -31,8 +31,10 @@ public:
     */
    HumanoidType getType() const override;
 
-   // TODO
-   //void setAction(const Field& f);
+
+   void setAction(Field& f);
+
+   size_t moveDistance() const override;
 };
 
 

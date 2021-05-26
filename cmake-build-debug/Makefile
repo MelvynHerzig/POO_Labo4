@@ -58,19 +58,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "E:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = C:\Users\Dudude\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = "E:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = C:\Users\Dudude\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4"
+CMAKE_SOURCE_DIR = "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = "C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestr
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"E:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	C:\Users\Dudude\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -89,7 +89,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"E:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\Dudude\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\cmake-build-debug\CMakeFiles" "C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug\CMakeFiles" "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\melvy\Desktop\Application\Drive\HEIG_VD\4em semestre\POO2\POO_Labo4\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Google Drive\HEIG-VD\4eme semestre\POO2\Labos\POO_Labo4\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -250,7 +250,6 @@ Actions/Stay.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Actions/Stay.cpp.s
 .PHONY : Actions/Stay.cpp.s
 
-<<<<<<< Updated upstream
 BuffyAndVampires.obj: BuffyAndVampires.cpp.obj
 
 .PHONY : BuffyAndVampires.obj
@@ -278,8 +277,6 @@ BuffyAndVampires.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/BuffyAndVampires.cpp.s
 .PHONY : BuffyAndVampires.cpp.s
 
-=======
->>>>>>> Stashed changes
 Display/AbstractDisplay.obj: Display/AbstractDisplay.cpp.obj
 
 .PHONY : Display/AbstractDisplay.obj
@@ -603,7 +600,6 @@ Input/KeyListener.s: Input/KeyListener.cpp.s
 Input/KeyListener.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Input/KeyListener.cpp.s
 .PHONY : Input/KeyListener.cpp.s
-<<<<<<< Updated upstream
 
 Utils/Utils.obj: Utils/Utils.cpp.obj
 
@@ -631,8 +627,6 @@ Utils/Utils.s: Utils/Utils.cpp.s
 Utils/Utils.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\POO_Labo4.dir\build.make CMakeFiles/POO_Labo4.dir/Utils/Utils.cpp.s
 .PHONY : Utils/Utils.cpp.s
-=======
->>>>>>> Stashed changes
 
 main.obj: main.cpp.obj
 
@@ -682,12 +676,9 @@ help:
 	@echo ... Actions/Stay.obj
 	@echo ... Actions/Stay.i
 	@echo ... Actions/Stay.s
-<<<<<<< Updated upstream
 	@echo ... BuffyAndVampires.obj
 	@echo ... BuffyAndVampires.i
 	@echo ... BuffyAndVampires.s
-=======
->>>>>>> Stashed changes
 	@echo ... Display/AbstractDisplay.obj
 	@echo ... Display/AbstractDisplay.i
 	@echo ... Display/AbstractDisplay.s
@@ -724,12 +715,9 @@ help:
 	@echo ... Input/KeyListener.obj
 	@echo ... Input/KeyListener.i
 	@echo ... Input/KeyListener.s
-<<<<<<< Updated upstream
 	@echo ... Utils/Utils.obj
 	@echo ... Utils/Utils.i
 	@echo ... Utils/Utils.s
-=======
->>>>>>> Stashed changes
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

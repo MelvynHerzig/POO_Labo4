@@ -32,7 +32,7 @@ public:
    Event (Func event);
 
    /**
-    * @brief Déclange l'action sur le contrôleur BuffyAndVampires.
+    * @brief Déclanche l'action sur le contrôleur BuffyAndVampires.
     * @param controller Contrôleur où appliquer l'événement.
     */
    void trigger(BuffyAndVampires& controller) const;

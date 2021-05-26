@@ -1,22 +1,25 @@
-//
-// Created by melvy on 09/05/2021.
-//
-
 #include "Position.h"
 
-Position::Position (unsigned x, unsigned y) : x(x), y(y)
-{
+#include <cmath> // hypot
 
-}
+using namespace std;
 
-unsigned Position::getX () const
+Position::Position (int x, int y) : x(x), y(y)
+{}
+
+int Position::getX () const
 {
    return x;
 }
 
-unsigned Position::getY () const
+int Position::getY () const
 {
    return y;
+}
+
+double Position::getDistanceBetween(const Position& p1, const Position& p2)
+{
+   return hypot(p1.getX() - p2.getX(), p1.getY() - p2.getY());
 }
 
 

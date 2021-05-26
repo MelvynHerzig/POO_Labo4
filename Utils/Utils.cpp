@@ -15,3 +15,8 @@ int Utils::randomInteger (int min, int max)
    }
    return ( rand() % (max-min+1) ) + min;
 }
+
+Position Utils::randomPosition(int size)
+{
+   return Position(randomInteger(0, size), randomInteger(0, size));
+}

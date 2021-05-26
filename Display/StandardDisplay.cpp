@@ -25,7 +25,8 @@ void StandardDisplay::clear () const
    // Ne fait rien, les spécialisations Windows et Linux s'en chargeront.
 }
 
-void StandardDisplay::displayStatistics (double stats) const
+void StandardDisplay::displayStatistics (double stats, unsigned nbIteration, unsigned nbIterationMax) const
 {
-   cout << "\rBuffy's win rate: "<< left << setw(6) << setprecision(2) << fixed << stats;
+   cout << "\rBuffy's win rate: "<< left << setw(6) << setprecision(2) << fixed << stats*100 << "%. "
+        << "(" << nbIteration << "/" << nbIterationMax << ")";
 }

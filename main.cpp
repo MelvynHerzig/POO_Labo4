@@ -13,6 +13,7 @@
 
 using namespace std;
 
+
 /**
  * @brief Vérifie la validité des arguments.
  * @param size Taille de la carte [10-80].
@@ -89,7 +90,7 @@ int main (int argc, char* argv[])
 
    // Création du contrôleur
    BuffyAndVampires buffyAndVampires{display, size, nbHumans, nbVampires};
-   buffyAndVampires.printState();
+   buffyAndVampires.run();
 
    return EXIT_SUCCESS;
 }

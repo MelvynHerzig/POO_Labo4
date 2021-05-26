@@ -10,11 +10,11 @@
  * @authors Forestier Quentin & Herzig Melvyn
  * @compiler MinGW-g++ 6.3.0
  */
-class Vampire : public Humanoid, public IKillable
+class Vampire : public IKillable, public Humanoid
 {
 public:
    /**
-    * @brief Constructeur, définit la position du vampire
+    * @brief Constructeur, définit la direction du vampire
     * @param position Position à assigner.
     */
    explicit Vampire(const Position& position);
@@ -23,7 +23,7 @@ public:
     * @brief Le vampire s'affiche dans l'afficheur.
     * @param displayer Afficheur responsable d'afficher le vampire.
     */
-   void display(const AbstractDisplay &displayer) const override;
+   void display(const AbstractDisplay& displayer) const override;
 
    /**
    * @brief Accesseur au type de la classe.
@@ -31,8 +31,8 @@ public:
    */
    HumanoidType getType() const override;
 
-   // TODO
-   //void setAction(const Field& f);
+
+   void setAction(Field& f);
 
    void kill() override;
 };

@@ -1,8 +1,6 @@
 #ifndef POO_LABO4_HUMANOID_H
 #define POO_LABO4_HUMANOID_H
 
-
-#include "../Field.h"
 #include "../Actions/Action.h"
 #include "HumanoidType.h"
 #include "position/Position.h"
@@ -20,7 +18,7 @@ class AbstractDisplay;
  */
 class Humanoid
 {
-private:
+protected:
     /**
      * @brief Humanoïde vivant ?
      */
@@ -32,7 +30,11 @@ private:
      */
     Position position;
 
-protected:
+    /**
+     * @brief Direction dans laquelle l'humanoïde se dirige
+     */
+    Position direction;
+
     /**
      * @brief Action a executé
      */
@@ -41,7 +43,7 @@ protected:
 public:
 
    /**
-    * @brief Constructeur, définit la position de l'humaoïde.
+    * @brief Constructeur, définit la direction de l'humaoïde.
     * @param position Position à assigner.
     */
    explicit Humanoid(const Position& position);
@@ -49,7 +51,7 @@ public:
     /**
      * @brief Destructeur de la classe
      */
-    virtual ~Humanoid() = default;
+    virtual ~Humanoid();
 
     /**
      * @brief L'humanoïde s'affiche dans l'afficheur.
@@ -67,7 +69,7 @@ public:
      * @brief Defini l'action que l'humanoïde doit effectué en fonction de l'environnement
      * @param f Environnement influant sur le choix de l'action
      */
-    //virtual void setAction(Field& f) = 0;
+    virtual void setAction(Field& f) = 0;
 
     /**
      * Execute l'action définie précédemment sur l'environnement passé en paramètre
@@ -82,18 +84,30 @@ public:
     bool isAlive() const;
 
     /**
-     * @brief Déplace l'humanoïde à la newPosition souhaitée
-     * @param newPosition Position où déplacer l'humanoïde
+     * @brief Déplace l'humanoïde à la direction souhaitée
+     * @param newPosition Direction dans laquelle déplacer l'humanoïde
      */
     void move(Position& newPosition);
 
     /**
-     * @brief Est-ce que l'humanoide est à la position (x,y) ?
+     * @brief Est-ce que l'humanoide est à la direction (x,y) ?
      * @param x Position x.
      * @param y Position y.
-     * @return Retourne vrai si la position de l'humanoïde vaut x et y
+     * @return Retourne vrai si la direction de l'humanoïde vaut x et y
      */
     bool isAt(unsigned x, unsigned y) const;
+
+    /**
+     * @brief Récupère la direction courante de l'humanoïde
+     * @return Position de l'humanoïde
+     */
+    Position getPosition() const;
+
+    /**
+     * @brief Nombre de cases que doit se déplacer l'humanoïde
+     * @return size_t Nombre de cases
+     */
+    virtual size_t moveDistance() const;
 
 };
 

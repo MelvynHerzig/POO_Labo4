@@ -3,12 +3,14 @@
 
 #include <string> // string
 
-#include "../Field.h"
 
 // Pré-déclaration.
 class Field;
+
 class Human;
+
 class Vampire;
+
 class Buffy;
 
 /**
@@ -79,7 +81,7 @@ public:
     * @brief Affiche une statistique.
     * @param stats Statistique à afficher.
     */
-   virtual void displayStatistics(double stats) const = 0;
+   virtual void displayStatistics(double stats, unsigned nbIteration, unsigned nbIterationMax) const = 0;
 
 private:
 

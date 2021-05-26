@@ -1,5 +1,7 @@
 #include "AbstractDisplay.h"
 
+#include "../Field.h"
+
 #include <iostream> // cout
 
 using namespace std;

@@ -10,33 +10,33 @@
 
 using namespace std;
 
-Field::Field (size_t size, size_t humansToCreate, size_t vampiresToCreate) : turn(0), SIZE(size)
+Field::Field(size_t size, size_t humansToCreate, size_t vampiresToCreate) : SIZE(size), turn(1)
 {
 
-   // Création des humanoïdes.
-   createHumanoid<Buffy>(1);
-   createHumanoid<Human>(humansToCreate);
-   createHumanoid<Vampire>(vampiresToCreate);
+    // Création des humanoïdes.
+   createHumanoids<Buffy>(1);
+   createHumanoids<Human>(humansToCreate);
+   createHumanoids<Vampire>(vampiresToCreate);
 }
 
-Field::~Field ()
+Field::~Field()
 {
-   for (Humanoid* humanoid : humanoids)
-   {
-      delete humanoid;
-   }
+    for (Humanoid* humanoid : humanoids)
+    {
+        delete humanoid;
+    }
 }
 
 int Field::nextTurn()
 {
     // Déterminer les prochaines actions
-    for (list<Humanoid*>::iterator it = humanoids.begin(); it != humanoids.end(); it++)
-        // TODO (*it)->setAction(*this);
+    for (auto & humanoid : humanoids)
+        humanoid->setAction(*this);
     // Executer les actions
-    for (list<Humanoid*>::iterator it = humanoids.begin(); it != humanoids.end(); it++)
-        (*it)->executeAction(*this);
+    for (auto & humanoid : humanoids)
+        humanoid->executeAction(*this);
     // Enlever les humanoides tués
-    for (list<Humanoid*>::iterator it = humanoids.begin(); it != humanoids.end();)
+    for (auto it = humanoids.begin(); it != humanoids.end();)
     {
         if (!(*it)->isAlive())
         {
@@ -51,35 +51,37 @@ int Field::nextTurn()
     return turn++;
 }
 
-std::size_t Field::getSize () const
+std::size_t Field::getSize() const
 {
-   return SIZE;
+    return SIZE;
 }
 
-bool Field::hasHumanoidAt (unsigned int x, unsigned int y) const
+bool Field::hasHumanoidAt(unsigned int x, unsigned int y) const
 {
-   // On recherche le premier humanoïde à la position x,y.
-   for(Humanoid* humanoid : humanoids)
-   {
-      if(humanoid->isAt(x,y)) return true;
-   }
+    // On recherche le premier humanoïde à la direction x,y.
+    for (Humanoid* humanoid : humanoids)
+    {
+        if (humanoid->isAt(x, y)) return true;
+    }
 
-   return false;
+    return false;
 }
 
 const Humanoid& Field::getHumanoidAt (unsigned int x, unsigned int y) const
 {
-   auto it = find_if(humanoids.begin(), humanoids.end(), [x,y](const Humanoid* humanoid)
-   {
-      return humanoid->isAt(x,y);
-   });
+    auto it = find_if(humanoids.begin(), humanoids.end(), [x, y](const Humanoid* humanoid)
+    {
+        return humanoid->isAt(x, y);
+    });
 
-   if(it == humanoids.end())
-   {
-      throw runtime_error("Nu humanoid at position required");
-   }
+    if (it == humanoids.end())
+    {
+        throw runtime_error("No humanoid at direction required");
+    }
 
-   return **it;
+    return **it;
 }
+
+
 
 

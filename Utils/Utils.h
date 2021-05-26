@@ -2,6 +2,7 @@
 #define POO_LABO4_UTILS_H
 
 #include <random> // random_device
+#include "../Entities/position/Position.h" // Position
 
 /**
  * @brief Classe utilitaire proposant des méthodes static qui n'ont pas de logique
@@ -34,6 +35,13 @@ public:
    * @return int Retourne l'entier aléatoire.
    */
    static int randomInteger(int min, int max);
+
+   /**
+    * @brief Calcule une position aléatoire sur le terrain
+    * @param size Taille du terrain au créer une position aléatoire.
+    * @return Position aléatoire sur le terrain
+    */
+   static Position randomPosition(int size);
 };
 
 #endif //POO_LABO4_UTILS_H

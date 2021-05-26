@@ -3,7 +3,8 @@
 
 #include <list>   // list
 #include <vector> // vector
-#include "Entities/Humanoid.h"
+#include "Entities/position/Position.h"
+#include "Entities/IKillable.h"
 
 class Humanoid;
 
@@ -60,26 +61,44 @@ public:
     std::size_t getSize() const;
 
     /**
-     * @brief Retourne vrai si un hamnoïde à la position (x,y)
+     * @brief Retourne vrai si un hamnoïde à la direction (x,y)
      * @return
      */
     bool hasHumanoidAt(unsigned x, unsigned y) const;
 
    /**
-    * @brief Accède à l'humanoïde en position (x,y).
-    * @return Retourne une référence sur l'humanoïde en position (x,y).
-    * @throw runtime_error Si aucun humanoïde est en position x,y.
+    * @brief Accède à l'humanoïde en direction (x,y).
+    * @return Retourne une référence sur l'humanoïde en direction (x,y).
+    * @throw runtime_error Si aucun humanoïde est en direction x,y.
     */
    const Humanoid& getHumanoidAt(unsigned x, unsigned y) const;
+
+   /**
+     * @brief Calcule et retournel'humanoïde d'un type donné le plus proche de position.
+     * @tparam HumanoidType Type d'humanoïde à rechercher
+     * @param position Position d'où rechercher l'humanoïde le plus proche.
+     * @return Retourne un pointeur sur l'entité la plus proche.
+     */
+   template <typename humanoidClass>
+   const humanoidClass* getNearestKillable(const Position& position) const;
+
+   /**
+    * @brief Crée un humanoïde à la position donnée
+    * @tparam humanoidClass Type d'humanoïde
+    * @param position Position de l'humanoïde à créer
+    */
+   template <typename humanoidClass>
+   void createHumanoid(const Position& position);
+
 
 private:
 
    /**
-    * @brief Crée un montant donnée d'humanoïdes à une position aléatoire.
-    * @tparam humaoidClass Spécialisation d'humanoïde
+    * @brief Crée un montant donnée d'humanoïdes à une direction aléatoire.
+    * @tparam humanoidClass Spécialisation d'humanoïde
     * @param amout Quantité à créer.
     */
-   template<typename humaoidClass> void createHumanoid(std::size_t amout);
+   template<typename humanoidClass> void createHumanoids(std::size_t amout);
 };
 
 #include "GenericField.h"

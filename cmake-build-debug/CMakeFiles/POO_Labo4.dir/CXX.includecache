@@ -6,10 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Action.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Action.h
 ../Field.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Field.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Field.h
 
+<<<<<<< Updated upstream
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/BuffyAndVampires.h
 Field.h
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Field.h
@@ -37,52 +38,113 @@ StandardDisplay.h
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/StandardDisplay.h
 
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Humanoid.h
+=======
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Move.h
+../Entities/Humanoid.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Humanoid.h
+../Entities/IKillable.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/IKillable.h
+
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Stay.h
+Action.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Action.h
+
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Display/AbstractDisplay.h
+string
+-
 ../Field.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Field.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Field.h
+
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Buffy.cpp
+Buffy.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Buffy.h
+../Actions/Move.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Move.h
+../Actions/Stay.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Stay.h
+
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Buffy.h
+Humanoid.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Humanoid.h
+
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Human.cpp
+Human.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Human.h
+../Actions/Move.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Move.h
+../Actions/Stay.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Stay.h
+
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Human.h
+Humanoid.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Humanoid.h
+IKillable.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/IKillable.h
+Vampire.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Vampire.h
+
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Humanoid.h
+>>>>>>> Stashed changes
+../Field.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Field.h
 ../Actions/Action.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Action.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Action.h
 HumanoidType.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/HumanoidType.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/HumanoidType.h
 position/Position.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/position/Position.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/position/Position.h
 ../Display/AbstractDisplay.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/AbstractDisplay.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Display/AbstractDisplay.h
 
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/HumanoidType.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/HumanoidType.h
 
+<<<<<<< Updated upstream
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/position/Position.h
 
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Field.h
+=======
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/IKillable.h
+
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Vampire.cpp
+Vampire.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Vampire.h
+../Actions/Move.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Move.h
+../Actions/Stay.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Stay.h
+
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Vampire.h
+Humanoid.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Humanoid.h
+IKillable.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/IKillable.h
+
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/position/Position.h
+
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Field.h
+>>>>>>> Stashed changes
 list
 -
 vector
 -
 Entities/Humanoid.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Humanoid.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Humanoid.h
 GenericField.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/GenericField.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/GenericField.h
 
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/GenericField.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/GenericField.h
 Utils/Utils.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Utils/Utils.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Utils/Utils.h
 Entities/position/Position.h
+<<<<<<< Updated upstream
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/position/Position.h
 
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Utils/Utils.h
+=======
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/position/Position.h
+
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Utils/Utils.h
+>>>>>>> Stashed changes
 random
 -
-
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/main.cpp
-cstdlib
--
-iostream
--
-Display/LinuxDisplay.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/LinuxDisplay.h
-Display/WindowsDisplay.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/WindowsDisplay.h
-BuffyAndVampires.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/BuffyAndVampires.h
-Display/StandardDisplay.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/StandardDisplay.h
 

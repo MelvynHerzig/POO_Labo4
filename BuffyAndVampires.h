@@ -3,6 +3,7 @@
 
 #include "Field.h"
 #include "Display/AbstractDisplay.h"
+#include "Input/KeyListener.h"
 
 /**
  * @brief Classe type contrôleur, gère l'exécution de Buffy contre les vampires.
@@ -13,6 +14,8 @@
 class BuffyAndVampires
 {
 private:
+
+    friend Event KeyListener::getNextInput(size_t currentTurn);
 
    /**
     * @brief Nombre de simultation à exécuter en mode statistique.
@@ -44,6 +47,21 @@ private:
     */
    Field field;
 
+   /**
+    * @brief Gère l'input utilisateur
+    */
+    KeyListener listener;
+
+    /**
+     * @brief Numéro de tour actuel du Field
+     */
+    int noTurn;
+
+    /**
+     * @brief Est-ce que l'application doit se terminer.
+     */
+    bool exit;
+
 public:
 
    /**
@@ -56,22 +74,29 @@ public:
    BuffyAndVampires(const AbstractDisplay& display, size_t size, size_t humansToCreate, size_t vampiresToCreate);
 
    /**
-    * @brief Avance la simulation d'un tour.
+    * @brief Lance la simulation
     */
-   void nextTurn();
+   void run();
 
-   /**
+private:
+
+    /**
+     * @brief Effectue le prochain tour du terrain
+     */
+    void nextTurn();
+
+    /**
     * @brief Effectue 10'000 simultations et affiche le % de victoire.
     */
-   void statistics();
+    void statistics();
 
-   /**
-    * @brief Termine l'application
-    */
-   void quit();
+    /**
+     * @brief Termine l'application
+     */
+    void quit();
 
-   // TODO replacer au bon endroit fonction de test.
-   void printState();
+    // TODO replacer au bon endroit fonction de test.
+    void printState();
 };
 
 

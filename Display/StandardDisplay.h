@@ -40,7 +40,7 @@ public:
     * @brief Affiche une statistique.
     * @param stats Statistique à afficher.
     */
-   void displayStatistics(double stats) const override;
+   void displayStatistics (double stats, unsigned nbIteration, unsigned nbIterationMax) const override;
 };
 
 #endif //POO_LABO4_STANDARDDISPLAY_H
