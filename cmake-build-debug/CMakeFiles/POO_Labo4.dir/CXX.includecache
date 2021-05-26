@@ -8,50 +8,6 @@
 
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Action.h
 
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Bite.cpp
-Bite.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Bite.h
-
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Bite.h
-Action.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Action.h
-../Entities/Human.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Human.h
-
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Kill.cpp
-Kill.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Kill.h
-
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Kill.h
-../Entities/IKillable.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/IKillable.h
-Action.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Action.h
-
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Move.cpp
-Move.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Move.h
-
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Move.h
-../Entities/Humanoid.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Humanoid.h
-../Entities/IKillable.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/IKillable.h
-
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Stay.h
-Action.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Action.h
-
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/BuffyAndVampires.cpp
-BuffyAndVampires.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/BuffyAndVampires.h
-Entities/Vampire.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Vampire.h
-Entities/Human.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Human.h
-iostream
--
-
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/BuffyAndVampires.h
 Field.h
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Field.h
@@ -59,14 +15,6 @@ Display/AbstractDisplay.h
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/AbstractDisplay.h
 Input/KeyListener.h
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Input/KeyListener.h
-
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/AbstractDisplay.cpp
-AbstractDisplay.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/AbstractDisplay.h
-../Field.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Field.h
-iostream
--
 
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/AbstractDisplay.h
 string
@@ -80,53 +28,17 @@ C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Dis
 AbstractDisplay.h
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/AbstractDisplay.h
 
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/WindowsDisplay.cpp
+WindowsDisplay.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/WindowsDisplay.h
+iostream
+-
+
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/WindowsDisplay.h
 windows.h
 -
 StandardDisplay.h
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/StandardDisplay.h
-
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Buffy.cpp
-Buffy.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Buffy.h
-Vampire.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Vampire.h
-../Actions/Move.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Move.h
-../Utils/Utils.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Utils/Utils.h
-../Actions/Kill.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Kill.h
-../Field.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Field.h
-
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Buffy.h
-Humanoid.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Humanoid.h
-
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Human.cpp
-Human.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Human.h
-../Field.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Field.h
-
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Human.h
-Humanoid.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Humanoid.h
-IKillable.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/IKillable.h
-Vampire.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Vampire.h
-
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Humanoid.cpp
-Humanoid.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Humanoid.h
-../Utils/Utils.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Utils/Utils.h
-../Actions/Move.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Move.h
-../Field.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Field.h
 
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Humanoid.h
 ../Actions/Action.h
@@ -138,41 +50,7 @@ C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Dis
 
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/IKillable.h
 
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Vampire.cpp
-Vampire.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Vampire.h
-Human.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Human.h
-../Field.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Field.h
-../Actions/Move.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Move.h
-../Actions/Stay.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Stay.h
-../Actions/Kill.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Kill.h
-../Actions/Bite.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Bite.h
-
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Vampire.h
-Humanoid.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Humanoid.h
-IKillable.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/IKillable.h
-
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/position/Position.h
-
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Field.cpp
-Field.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Field.h
-algorithm
--
-stdexcept
--
-Entities/Human.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Human.h
-Entities/Buffy.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Buffy.h
 
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Field.h
 list
@@ -196,16 +74,6 @@ C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Inp
 functional
 -
 
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Input/KeyListener.cpp
-KeyListener.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Input/KeyListener.h
-limits
--
-iostream
--
-../BuffyAndVampires.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/BuffyAndVampires.h
-
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Input/KeyListener.h
 Event.h
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Input/Event.h
@@ -221,12 +89,12 @@ cstdlib
 -
 iostream
 -
+BuffyAndVampires.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/BuffyAndVampires.h
 Display/LinuxDisplay.h
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/LinuxDisplay.h
 Display/WindowsDisplay.h
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/WindowsDisplay.h
-BuffyAndVampires.h
-C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/BuffyAndVampires.h
 Display/StandardDisplay.h
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/StandardDisplay.h
 

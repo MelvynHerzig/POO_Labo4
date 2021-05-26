@@ -1,6 +1,8 @@
 #ifndef POO_LABO4_WINDOWSDISPLAY_H
 #define POO_LABO4_WINDOWSDISPLAY_H
 
+// Sans cette directive, ne compile pas sous linux
+#ifdef __WIN32
 #include <windows.h> // WORD
 
 #include "StandardDisplay.h"
@@ -66,5 +68,6 @@ public:
    void clear() const override;
 };
 
+#endif // __WIN32
 
 #endif //POO_LABO4_WINDOWSDISPLAY_H

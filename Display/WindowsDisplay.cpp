@@ -2,6 +2,9 @@
 
 #include<iostream> // cout
 
+// Sans cette directive, ne compile pas sous linux
+#ifdef __WIN32
+
 using namespace std;
 
 // -*-*-*-*-*-*-*-*-*-*-*- PRIVATE -*-*-*-*-*-*-*-*-*-*-*-*-
@@ -68,3 +71,5 @@ void WindowsDisplay::clear () const
 {
    system("cls");
 }
+
+#endif // __WIN32
