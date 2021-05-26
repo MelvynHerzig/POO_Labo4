@@ -11,6 +11,9 @@ class Field;
  */
 class Action
 {
+protected:
+   Action() = default;
+
 public:
 
    virtual ~Action() = default;

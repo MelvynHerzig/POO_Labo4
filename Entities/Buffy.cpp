@@ -15,11 +15,6 @@ void Buffy::display(const AbstractDisplay& displayer) const
    displayer.display(*this);
 }
 
-HumanoidType Buffy::getType() const
-{
-   return HumanoidType::BUFFY;
-}
-
 void Buffy::setAction(Field& f)
 {
    const Vampire* target = f.getNearestKillable<const Vampire>(this->position);

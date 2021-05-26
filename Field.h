@@ -2,7 +2,6 @@
 #define POO_LABO4_FIELD_H
 
 #include <list>   // list
-#include <vector> // vector
 #include "Entities/position/Position.h"
 #include "Entities/IKillable.h"
 
@@ -32,6 +31,10 @@ private:
      * @brief Taile (largeur/hauteur) de la carte de jeu.
      */
      const std::size_t SIZE;
+
+     Field(const Field& other) = delete;
+     Field& operator=(const Field& other) = delete;
+
 
 public:
 

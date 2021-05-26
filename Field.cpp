@@ -3,9 +3,7 @@
 #include <algorithm> // find
 #include <stdexcept>
 
-#include "Entities/Humanoid.h"
 #include "Entities/Human.h"
-#include "Entities/Vampire.h"
 #include "Entities/Buffy.h"
 
 using namespace std;
@@ -58,7 +56,7 @@ std::size_t Field::getSize() const
 
 bool Field::hasHumanoidAt(unsigned int x, unsigned int y) const
 {
-    // On recherche le premier humanoïde à la newPosition x,y.
+    // On recherche le premier humanoïde à la position x,y.
     for (Humanoid* humanoid : humanoids)
     {
         if (humanoid->isAt(x, y)) return true;
@@ -76,7 +74,7 @@ const Humanoid& Field::getHumanoidAt (unsigned int x, unsigned int y) const
 
     if (it == humanoids.end())
     {
-        throw runtime_error("No humanoid at newPosition required");
+        throw runtime_error("No humanoid at requested coordinates");
     }
 
     return **it;

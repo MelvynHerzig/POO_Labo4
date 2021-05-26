@@ -95,7 +95,9 @@ private:
      */
     void quit();
 
-    // TODO replacer au bon endroit fonction de test.
+    /**
+     * @brief Affiche l'état du Field principal
+     */
     void printState();
 };
 

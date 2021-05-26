@@ -16,11 +16,6 @@ void Vampire::display(const AbstractDisplay& displayer) const
    displayer.display(*this);
 }
 
-HumanoidType Vampire::getType() const
-{
-   return HumanoidType::VAMPIRE;
-}
-
 void Vampire::setAction(Field& f)
 {
    const Human* target = f.getNearestKillable<const Human>(this->position);
@@ -34,10 +29,10 @@ void Vampire::setAction(Field& f)
    {
       if (Utils::randomInteger(0, 2))
       {
-         action = new Kill((IKillable&) *target);
+         action = new Kill((IKillable & ) * target);
       } else
       {
-         action = new Bite((Human&) *target);
+         action = new Bite((Human & ) * target);
       }
    } else
    {

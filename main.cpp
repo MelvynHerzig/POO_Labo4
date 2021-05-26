@@ -61,7 +61,7 @@ int main (int argc, char* argv[])
    // Récupération des arguments.
    if(argc != 4) // Pas le bon nombre d'arguments
    {
-      cout << "Buffyand the vapires need 3 args: <map size> <nb humans> <nb vampires>" << endl;
+      cout << "Buffy and the vampires need 3 args: <map size> <nb humans> <nb vampires>" << endl;
       return EXIT_FAILURE;
    }
 

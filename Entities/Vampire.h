@@ -5,7 +5,7 @@
 #include "IKillable.h"
 
 /**
- * @brief Classe qui représente l'environnement
+ * @brief Classe qui représente les vampires
  * @date 05/05/2021
  * @authors Forestier Quentin & Herzig Melvyn
  * @compiler MinGW-g++ 6.3.0
@@ -26,14 +26,14 @@ public:
    void display(const AbstractDisplay& displayer) const override;
 
    /**
-   * @brief Accesseur au type de la classe.
-   * @return Retourne HumanoidType::VAMPIRE
-   */
-   HumanoidType getType() const override;
+    * @brief Defini l'action que l'humanoïde doit effectué en fonction de l'environnement
+    * @param f Environnement influant sur le choix de l'action
+    */
+   void setAction(Field& f) override;
 
-
-   void setAction(Field& f);
-
+   /**
+     * @brief Tue l'instance
+     */
    void kill() override;
 };
 

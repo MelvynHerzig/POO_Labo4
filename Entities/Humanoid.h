@@ -2,12 +2,13 @@
 #define POO_LABO4_HUMANOID_H
 
 #include "../Actions/Action.h"
-#include "HumanoidType.h"
 #include "position/Position.h"
 #include "../Display/AbstractDisplay.h"
 
 class Action;
+
 class Field;
+
 class AbstractDisplay;
 
 /**
@@ -19,95 +20,89 @@ class AbstractDisplay;
 class Humanoid
 {
 protected:
-    /**
-     * @brief Humanoïde vivant ?
-     */
-    bool alive;
+   /**
+    * @brief Humanoïde vivant ?
+    */
+   bool alive;
 
 
-    /**
-     * @brief Position de l'humanoïde
-     */
-    Position position;
+   /**
+    * @brief Position de l'humanoïde
+    */
+   Position position;
 
-    /**
-     * @brief Direction dans laquelle l'humanoïde se dirige
-     */
-    Position direction;
+   /**
+    * @brief Direction dans laquelle l'humanoïde se dirige
+    */
+   Position direction;
 
-    /**
-     * @brief Action a executé
-     */
-    Action* action;
+   /**
+    * @brief Action a executé
+    */
+   Action* action;
+
+   /**
+   * @brief Constructeur, définit la newPosition de l'humaoïde.
+   * @param position Position à assigner.
+   */
+   explicit Humanoid(const Position& position);
 
 public:
 
    /**
-    * @brief Constructeur, définit la newPosition de l'humaoïde.
-    * @param position Position à assigner.
+    * @brief Destructeur de la classe
     */
-   explicit Humanoid(const Position& position);
+   virtual ~Humanoid();
 
-    /**
-     * @brief Destructeur de la classe
-     */
-    virtual ~Humanoid();
+   /**
+    * @brief L'humanoïde s'affiche dans l'afficheur.
+    * @param displayer Afficheur responsable d'afficher l'humanoïde.
+    */
+   virtual void display(const AbstractDisplay& displayer) const = 0;
 
-    /**
-     * @brief L'humanoïde s'affiche dans l'afficheur.
-     * @param displayer Afficheur responsable d'afficher l'humanoïde.
-     */
-    virtual void display(const AbstractDisplay& displayer) const = 0;
+   /**
+    * @brief Defini l'action que l'humanoïde doit effectué en fonction de l'environnement
+    * @param f Environnement influant sur le choix de l'action
+    */
+   virtual void setAction(Field& f);
 
-    /**
-     * @brief Obtient le type de l'humanoïde selon l'enum HumanoidType
-     * @return Le type de l'humanoïde
-     */
-    virtual HumanoidType getType() const = 0;
+   /**
+    * Execute l'action définie précédemment sur l'environnement passé en paramètre
+    * @param f Environnement sur lequel effectué l'action
+    */
+   void executeAction(Field& f);
 
-    /**
-     * @brief Defini l'action que l'humanoïde doit effectué en fonction de l'environnement
-     * @param f Environnement influant sur le choix de l'action
-     */
-    virtual void setAction(Field& f);
+   /**
+    * @brief Accesseur : est-ce que l'humanoïde est vivant ?
+    * @return
+    */
+   bool isAlive() const;
 
-    /**
-     * Execute l'action définie précédemment sur l'environnement passé en paramètre
-     * @param f Environnement sur lequel effectué l'action
-     */
-    void executeAction(Field& f);
+   /**
+    * @brief Déplace l'humanoïde à la newPosition souhaitée
+    * @param newPosition Direction dans laquelle déplacer l'humanoïde
+    */
+   void move(Position& newPosition);
 
-    /**
-     * @brief Accesseur : est-ce que l'humanoïde est vivant ?
-     * @return
-     */
-    bool isAlive() const;
+   /**
+    * @brief Est-ce que l'humanoide est à la newPosition (x,y) ?
+    * @param x Position x.
+    * @param y Position y.
+    * @return Retourne vrai si la newPosition de l'humanoïde vaut x et y
+    */
+   bool isAt(unsigned x, unsigned y) const;
 
-    /**
-     * @brief Déplace l'humanoïde à la newPosition souhaitée
-     * @param newPosition Direction dans laquelle déplacer l'humanoïde
-     */
-    void move(Position& newPosition);
+   /**
+    * @brief Récupère la newPosition courante de l'humanoïde
+    * @return Position de l'humanoïde
+    */
+   Position getPosition() const;
 
-    /**
-     * @brief Est-ce que l'humanoide est à la newPosition (x,y) ?
-     * @param x Position x.
-     * @param y Position y.
-     * @return Retourne vrai si la newPosition de l'humanoïde vaut x et y
-     */
-    bool isAt(unsigned x, unsigned y) const;
-
-    /**
-     * @brief Récupère la newPosition courante de l'humanoïde
-     * @return Position de l'humanoïde
-     */
-    Position getPosition() const;
-
-    /**
-     * @brief Nombre de cases que doit se déplacer l'humanoïde
-     * @return size_t Nombre de cases
-     */
-    virtual size_t moveDistance() const;
+   /**
+    * @brief Nombre de cases que doit se déplacer l'humanoïde
+    * @return size_t Nombre de cases
+    */
+   virtual size_t moveDistance() const;
 
 };
 
