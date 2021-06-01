@@ -1,12 +1,12 @@
 #include <cstdlib>  // EXIT_SUCCESS, EXIT_FAILURE.
 #include <iostream> // cout
 
+#include "BuffyAndVampires.h"
+
 #ifdef __linux__
   #include "Display/LinuxDisplay.h"       // Affichage si OS linux
 #elif __WIN32
   #include "Display/WindowsDisplay.h"     // Affichage si OS Windows
-#include "BuffyAndVampires.h"
-
 #else
   #include "Display/StandardDisplay.h"    // Affichage si OS Autre
 #endif

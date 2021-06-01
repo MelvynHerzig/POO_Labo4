@@ -30,7 +30,7 @@ private:
     /**
      * @brief Taile (largeur/hauteur) de la carte de jeu.
      */
-     const std::size_t SIZE;
+     const std::size_t size;
 
      Field(const Field& other) = delete;
      Field& operator=(const Field& other) = delete;
@@ -99,9 +99,9 @@ private:
    /**
     * @brief Crée un montant donnée d'humanoïdes à une position aléatoire.
     * @tparam humanoidClass Spécialisation d'humanoïde
-    * @param amout Quantité à créer.
+    * @param amount Quantité à créer.
     */
-   template<typename humanoidClass> void createHumanoids(std::size_t amout);
+   template<typename humanoidClass> void createHumanoids(std::size_t amount);
 };
 
 #include "GenericField.h"

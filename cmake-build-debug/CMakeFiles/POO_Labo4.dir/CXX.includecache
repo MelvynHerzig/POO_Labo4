@@ -6,251 +6,95 @@
 
 #IncludeRegexTransform: 
 
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Action.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Action.h
 
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Bite.cpp
-Bite.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Bite.h
-
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Bite.h
-Action.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Action.h
-../Entities/Human.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Human.h
-
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Kill.h
-../Entities/IKillable.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/IKillable.h
-Action.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Action.h
-
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Move.cpp
-Move.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Move.h
-
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Move.h
-../Entities/Humanoid.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Humanoid.h
-../Entities/IKillable.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/IKillable.h
-
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Stay.h
-Action.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Action.h
-
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/BuffyAndVampires.cpp
-BuffyAndVampires.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/BuffyAndVampires.h
-Entities/Vampire.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Vampire.h
-Entities/Human.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Human.h
-iostream
--
-
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/BuffyAndVampires.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/BuffyAndVampires.h
 Field.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Field.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Field.h
 Display/AbstractDisplay.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Display/AbstractDisplay.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/AbstractDisplay.h
 Input/KeyListener.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Input/KeyListener.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Input/KeyListener.h
 
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Display/AbstractDisplay.cpp
-AbstractDisplay.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Display/AbstractDisplay.h
-../Field.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Field.h
-iostream
--
-
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Display/AbstractDisplay.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/AbstractDisplay.h
 string
 -
 
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Display/LinuxDisplay.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/LinuxDisplay.h
 StandardDisplay.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Display/StandardDisplay.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/StandardDisplay.h
 
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Display/StandardDisplay.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/StandardDisplay.h
 AbstractDisplay.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Display/AbstractDisplay.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/AbstractDisplay.h
 
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Display/WindowsDisplay.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/WindowsDisplay.cpp
+WindowsDisplay.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/WindowsDisplay.h
+iostream
+-
+
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/WindowsDisplay.h
 windows.h
 -
 StandardDisplay.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Display/StandardDisplay.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/StandardDisplay.h
 
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Buffy.cpp
-Buffy.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Buffy.h
-Vampire.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Vampire.h
-../Actions/Move.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Move.h
-../Actions/Stay.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Stay.h
-../Utils/Utils.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Utils/Utils.h
-../Actions/Kill.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Kill.h
-../Field.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Field.h
-
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Buffy.h
-Humanoid.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Humanoid.h
-
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Human.cpp
-Human.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Human.h
-../Actions/Move.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Move.h
-../Utils/Utils.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Utils/Utils.h
-../Field.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Field.h
-
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Human.h
-Humanoid.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Humanoid.h
-IKillable.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/IKillable.h
-Vampire.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Vampire.h
-
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Humanoid.cpp
-Humanoid.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Humanoid.h
-../Utils/Utils.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Utils/Utils.h
-../Actions/Move.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Move.h
-../Field.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Field.h
-
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Humanoid.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Humanoid.h
 ../Actions/Action.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Action.h
-HumanoidType.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/HumanoidType.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Action.h
 position/Position.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/position/Position.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/position/Position.h
 ../Display/AbstractDisplay.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Display/AbstractDisplay.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/AbstractDisplay.h
 
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/HumanoidType.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/IKillable.h
 
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/IKillable.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/position/Position.h
 
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Vampire.cpp
-Vampire.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Vampire.h
-Human.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Human.h
-../Field.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Field.h
-../Actions/Move.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Move.h
-../Actions/Stay.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Stay.h
-../Actions/Kill.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Kill.h
-../Actions/Bite.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Bite.h
-
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Vampire.h
-Humanoid.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Humanoid.h
-IKillable.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/IKillable.h
-
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/position/Position.cpp
-Position.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/position/Position.h
-cmath
--
-
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/position/Position.h
-
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Field.cpp
-Field.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Field.h
-algorithm
--
-stdexcept
--
-Entities/Humanoid.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Humanoid.h
-Entities/Human.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Human.h
-Entities/Vampire.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Vampire.h
-Entities/Buffy.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Buffy.h
-
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Field.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Field.h
 list
 -
-vector
--
 Entities/position/Position.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/position/Position.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/position/Position.h
 Entities/IKillable.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/IKillable.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/IKillable.h
 GenericField.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/GenericField.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/GenericField.h
 
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/GenericField.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/GenericField.h
 limits
 -
 Utils/Utils.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Utils/Utils.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Utils/Utils.h
 Entities/Humanoid.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Humanoid.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Humanoid.h
 
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Input/Event.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Input/Event.h
 functional
 -
 
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Input/KeyListener.cpp
-KeyListener.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Input/KeyListener.h
-limits
--
-iostream
--
-../BuffyAndVampires.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/BuffyAndVampires.h
-
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Input/KeyListener.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Input/KeyListener.h
 Event.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Input/Event.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Input/Event.h
 
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Utils/Utils.cpp
-Utils.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Utils/Utils.h
-ctime
--
-
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Utils/Utils.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Utils/Utils.h
 random
 -
 ../Entities/position/Position.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/position/Position.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/position/Position.h
 
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/main.cpp
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/main.cpp
 cstdlib
 -
 iostream
 -
-Display/LinuxDisplay.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Display/LinuxDisplay.h
-Display/WindowsDisplay.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Display/WindowsDisplay.h
 BuffyAndVampires.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/BuffyAndVampires.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/BuffyAndVampires.h
+Display/LinuxDisplay.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/LinuxDisplay.h
+Display/WindowsDisplay.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/WindowsDisplay.h
 Display/StandardDisplay.h
-D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Display/StandardDisplay.h
+C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/StandardDisplay.h
 

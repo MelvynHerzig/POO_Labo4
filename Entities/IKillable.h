@@ -9,17 +9,22 @@
  */
 class IKillable
 {
+protected:
+   /**
+    * @brief constructeur.
+    */
+   IKillable() = default;
 public:
+
+   /**
+    * @brief Destructeur de la classe
+    */
+   virtual ~IKillable() = default;
 
     /**
      * @brief Tue l'instance
      */
     virtual void kill() = 0;
-
-    /**
-     * @brief Destructeur de la classe
-     */
-    virtual ~IKillable() = default;
 };
 
 

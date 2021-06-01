@@ -30,17 +30,17 @@ private:
    /**
     * @brief Taille de la carte.
     */
-   const size_t SIZE;
+   const size_t size;
 
    /**
     * @brief Quantité d'humain a générer.
     */
-   const size_t HUMANS_TO_CREATE;
+   const size_t humansToCreate;
 
    /**
     * @brief Quantité de vampires a générer.
     */
-   const size_t VAMPIRES_TO_CREATE;
+   const size_t vampiresToCreate;
 
    /**
     * @brief Terrain de la simulation en cour.
