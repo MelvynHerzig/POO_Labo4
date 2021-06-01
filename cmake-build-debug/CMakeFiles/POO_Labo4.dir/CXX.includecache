@@ -8,6 +8,7 @@
 
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Action.h
 
+<<<<<<< Updated upstream
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/BuffyAndVampires.h
 Field.h
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Field.h
@@ -43,14 +44,61 @@ C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Dis
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Humanoid.h
 ../Actions/Action.h
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Actions/Action.h
+=======
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Display/AbstractDisplay.h
+string
+-
+
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Buffy.h
+Humanoid.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Humanoid.h
+
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Human.h
+Humanoid.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Humanoid.h
+IKillable.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/IKillable.h
+Vampire.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Vampire.h
+
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Humanoid.h
+../Actions/Action.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Actions/Action.h
+>>>>>>> Stashed changes
 position/Position.h
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/position/Position.h
 ../Display/AbstractDisplay.h
+<<<<<<< Updated upstream
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/AbstractDisplay.h
 
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/IKillable.h
 
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/position/Position.h
+=======
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Display/AbstractDisplay.h
+
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/IKillable.h
+
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Vampire.h
+Humanoid.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Humanoid.h
+IKillable.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/IKillable.h
+
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/position/Position.h
+
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Field.cpp
+Field.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Field.h
+algorithm
+-
+stdexcept
+-
+Entities/Human.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Human.h
+Entities/Buffy.h
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Entities/Buffy.h
+>>>>>>> Stashed changes
 
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Field.h
 list
@@ -70,6 +118,7 @@ C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Uti
 Entities/Humanoid.h
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/Humanoid.h
 
+<<<<<<< Updated upstream
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Input/Event.h
 functional
 -
@@ -79,11 +128,15 @@ Event.h
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Input/Event.h
 
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Utils/Utils.h
+=======
+D:/Google Drive/HEIG-VD/4eme semestre/POO2/Labos/POO_Labo4/Utils/Utils.h
+>>>>>>> Stashed changes
 random
 -
 ../Entities/position/Position.h
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Entities/position/Position.h
 
+<<<<<<< Updated upstream
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/main.cpp
 cstdlib
 -
@@ -98,3 +151,5 @@ C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Dis
 Display/StandardDisplay.h
 C:/Users/melvy/Desktop/Application/Drive/HEIG_VD/4em semestre/POO2/POO_Labo4/Display/StandardDisplay.h
 
+=======
+>>>>>>> Stashed changes
