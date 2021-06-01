@@ -50,8 +50,8 @@ void BuffyAndVampires::statistics()
 
       const Human* humanRemaining;
 
-      while (simulation.getNearestKillable<const Vampire>(position) != nullptr
-             && (humanRemaining = simulation.getNearestKillable<const Human>(position)) != nullptr)
+      while (simulation.getNearestHumanoid<const Vampire>(position) != nullptr
+             && (humanRemaining = simulation.getNearestHumanoid<const Human>(position)) != nullptr)
       {
          simulation.nextTurn();
       }

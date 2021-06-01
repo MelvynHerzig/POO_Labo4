@@ -17,7 +17,7 @@ void Buffy::display(const AbstractDisplay& displayer) const
 
 void Buffy::setAction(Field& f)
 {
-   const Vampire* target = f.getNearestKillable<const Vampire>(this->position);
+   const Vampire* target = f.getNearestHumanoid<const Vampire>(this->position);
    if (target == nullptr)
    {
       Humanoid::setAction(f);

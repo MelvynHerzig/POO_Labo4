@@ -18,7 +18,7 @@ void Vampire::display(const AbstractDisplay& displayer) const
 
 void Vampire::setAction(Field& f)
 {
-   const Human* target = f.getNearestKillable<const Human>(this->position);
+   const Human* target = f.getNearestHumanoid<const Human>(this->position);
    if (target == nullptr)
    {
       action = new Stay();

@@ -64,15 +64,15 @@ public:
     std::size_t getSize() const;
 
     /**
-     * @brief Retourne vrai si un hamnoïde à la newPosition (x,y)
+     * @brief Retourne vrai si un hamnoïde à la position (x,y)
      * @return
      */
     bool hasHumanoidAt(unsigned x, unsigned y) const;
 
    /**
-    * @brief Accède à l'humanoïde en newPosition (x,y).
-    * @return Retourne une référence sur l'humanoïde en newPosition (x,y).
-    * @throw runtime_error Si aucun humanoïde est en newPosition x,y.
+    * @brief Accède à l'humanoïde en position (x,y).
+    * @return Retourne une référence sur l'humanoïde en position (x,y).
+    * @throw runtime_error Si aucun humanoïde est en position x,y.
     */
    const Humanoid& getHumanoidAt(unsigned x, unsigned y) const;
 
@@ -83,7 +83,7 @@ public:
      * @return Retourne un pointeur sur l'entité la plus proche.
      */
    template <typename humanoidClass>
-   const humanoidClass* getNearestKillable(const Position& position) const;
+   const humanoidClass* getNearestHumanoid(const Position& position) const;
 
    /**
     * @brief Crée un humanoïde à la position donnée
@@ -97,7 +97,7 @@ public:
 private:
 
    /**
-    * @brief Crée un montant donnée d'humanoïdes à une newPosition aléatoire.
+    * @brief Crée un montant donnée d'humanoïdes à une position aléatoire.
     * @tparam humanoidClass Spécialisation d'humanoïde
     * @param amout Quantité à créer.
     */

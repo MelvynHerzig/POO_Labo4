@@ -7,7 +7,7 @@
 #include "Entities/Humanoid.h"
 
 template <typename humanoidClass>
-const humanoidClass* Field::getNearestKillable(const Position& position) const
+const humanoidClass* Field::getNearestHumanoid(const Position& position) const
 {
    const humanoidClass* nearestHumanoid = nullptr;
    double nearestDistance = std::numeric_limits<double>::max();

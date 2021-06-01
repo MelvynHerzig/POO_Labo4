@@ -42,7 +42,7 @@ protected:
    Action* action;
 
    /**
-   * @brief Constructeur, définit la newPosition de l'humaoïde.
+   * @brief Constructeur, définit la position de l'humaoïde.
    * @param position Position à assigner.
    */
    explicit Humanoid(const Position& position);
@@ -79,13 +79,13 @@ public:
    bool isAlive() const;
 
    /**
-    * @brief Déplace l'humanoïde à la newPosition souhaitée
+    * @brief Déplace l'humanoïde à la position souhaitée
     * @param newPosition Direction dans laquelle déplacer l'humanoïde
     */
    void move(Position& newPosition);
 
    /**
-    * @brief Est-ce que l'humanoide est à la newPosition (x,y) ?
+    * @brief Est-ce que l'humanoide est à la position (x,y) ?
     * @param x Position x.
     * @param y Position y.
     * @return Retourne vrai si la newPosition de l'humanoïde vaut x et y
@@ -93,7 +93,7 @@ public:
    bool isAt(unsigned x, unsigned y) const;
 
    /**
-    * @brief Récupère la newPosition courante de l'humanoïde
+    * @brief Récupère la position courante de l'humanoïde
     * @return Position de l'humanoïde
     */
    Position getPosition() const;
